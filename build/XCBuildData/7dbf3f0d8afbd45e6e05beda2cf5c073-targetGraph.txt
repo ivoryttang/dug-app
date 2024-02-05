@@ -1,0 +1,19 @@
+Target dependency graph (8 targets)
+Porcupine-iOS-PorcupineResources in Pods, no dependencies
+ios-voice-processor in Pods, no dependencies
+Porcupine-iOS in Pods, depends on:
+Porcupine-iOS-PorcupineResources in Pods (explicit)
+ios-voice-processor in Pods (explicit)
+Pods-Dug in Pods, depends on:
+Porcupine-iOS in Pods (explicit)
+ios-voice-processor in Pods (explicit)
+Pods-Dug WatchKit AppTests in Pods, depends on:
+Pods-Dug in Pods (explicit)
+Pods-Dug-Dug WatchKit AppUITests in Pods, depends on:
+Porcupine-iOS in Pods (explicit)
+ios-voice-processor in Pods (explicit)
+Pods-Dug-DugUITests in Pods, depends on:
+Porcupine-iOS in Pods (explicit)
+ios-voice-processor in Pods (explicit)
+Pods-DugTests in Pods, depends on:
+Pods-Dug in Pods (explicit)

@@ -1,0 +1,1449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6EAD129B644FA067123EAA /* Pods_Dug_WatchKit_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA643523A5481DD647B26B /* Pods_Dug_WatchKit_AppTests.framework */; };
+		61196C9D00499F8559175466 /* Pods_Dug_Dug_WatchKit_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3167EA16904CE3C13A53DFAC /* Pods_Dug_Dug_WatchKit_AppUITests.framework */; };
+		933598E14F26DD090A18C766 /* Pods_DugTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1346F57FB49E89CE3418138B /* Pods_DugTests.framework */; };
+		D3BDDFF12B6F205100A2B206 /* DugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDFF02B6F205100A2B206 /* DugApp.swift */; };
+		D3BDDFF32B6F205100A2B206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDFF22B6F205100A2B206 /* ContentView.swift */; };
+		D3BDDFF52B6F205200A2B206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDDFF42B6F205200A2B206 /* Assets.xcassets */; };
+		D3BDDFF82B6F205200A2B206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDDFF72B6F205200A2B206 /* Preview Assets.xcassets */; };
+		D3BDE0022B6F205200A2B206 /* DugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0012B6F205200A2B206 /* DugTests.swift */; };
+		D3BDE00C2B6F205200A2B206 /* DugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE00B2B6F205200A2B206 /* DugUITests.swift */; };
+		D3BDE00E2B6F205200A2B206 /* DugUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE00D2B6F205200A2B206 /* DugUITestsLaunchTests.swift */; };
+		D3BDE0122B6F205200A2B206 /* Dug WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3BDE0112B6F205200A2B206 /* Dug WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3BDE0172B6F205300A2B206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDE0162B6F205300A2B206 /* Assets.xcassets */; };
+		D3BDE01D2B6F205300A2B206 /* Dug WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3BDE01C2B6F205300A2B206 /* Dug WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3BDE0282B6F205400A2B206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDE0272B6F205400A2B206 /* Assets.xcassets */; };
+		D3BDE02B2B6F205400A2B206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDE02A2B6F205400A2B206 /* Preview Assets.xcassets */; };
+		D3BDE0362B6F205400A2B206 /* Dug_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0352B6F205400A2B206 /* Dug_WatchKit_AppTests.swift */; };
+		D3BDE0402B6F205400A2B206 /* Dug_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE03F2B6F205400A2B206 /* Dug_WatchKit_AppUITests.swift */; };
+		D3BDE0422B6F205400A2B206 /* Dug_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0412B6F205400A2B206 /* Dug_WatchKit_AppUITestsLaunchTests.swift */; };
+		D3BDE05E2B6F210000A2B206 /* BubbleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE05D2B6F210000A2B206 /* BubbleBackground.swift */; };
+		D3BDE0602B6F21AC00A2B206 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE05F2B6F21AC00A2B206 /* BubbleView.swift */; };
+		D3BDE0672B6F313D00A2B206 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0662B6F313D00A2B206 /* HomeScreen.swift */; };
+		D3BDE06A2B6F33E500A2B206 /* Voices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0692B6F33E500A2B206 /* Voices.swift */; };
+		D3BDE06C2B6F36B100A2B206 /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE06B2B6F36B100A2B206 /* AppTabNavigation.swift */; };
+		D3BDE0792B6F647600A2B206 /* StartMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0782B6F647600A2B206 /* StartMode.swift */; };
+		D3BDE07A2B6FFD0300A2B206 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE06E2B6F36E800A2B206 /* HomeScreen.swift */; };
+		D3BDE07B2B6FFD0300A2B206 /* Voices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0742B6F375A00A2B206 /* Voices.swift */; };
+		D3BDE07C2B6FFD0300A2B206 /* StartMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0762B6F63BD00A2B206 /* StartMode.swift */; };
+		D3BDE07D2B6FFD0300A2B206 /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0642B6F312300A2B206 /* AppTabNavigation.swift */; };
+		D3BDE07E2B6FFD0300A2B206 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0722B6F371800A2B206 /* BubbleView.swift */; };
+		D3BDE07F2B6FFD0300A2B206 /* DugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0232B6F205300A2B206 /* DugApp.swift */; };
+		D3BDE0802B6FFD0300A2B206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0212B6F205300A2B206 /* ContentView.swift */; };
+		D3BDE0812B6FFD0300A2B206 /* BubbleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0702B6F370C00A2B206 /* BubbleBackground.swift */; };
+		D3BDE0822B6FFD0300A2B206 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0252B6F205300A2B206 /* ComplicationController.swift */; };
+		D6E0CF3F8DB712E158175479 /* Pods_Dug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F307D1A7E9E47761332DC4 /* Pods_Dug.framework */; };
+		F7BC703F26AA9C7765096B64 /* Pods_Dug_DugUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EB0E6C222838D79DBD1B1F /* Pods_Dug_DugUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3BDDFFE2B6F205200A2B206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BDDFE52B6F205100A2B206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BDDFEC2B6F205100A2B206;
+			remoteInfo = Dug;
+		};
+		D3BDE0082B6F205200A2B206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BDDFE52B6F205100A2B206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BDDFEC2B6F205100A2B206;
+			remoteInfo = Dug;
+		};
+		D3BDE0132B6F205200A2B206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BDDFE52B6F205100A2B206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BDE0102B6F205200A2B206;
+			remoteInfo = "Dug WatchKit App";
+		};
+		D3BDE01E2B6F205300A2B206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BDDFE52B6F205100A2B206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BDE01B2B6F205300A2B206;
+			remoteInfo = "Dug WatchKit Extension";
+		};
+		D3BDE0322B6F205400A2B206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BDDFE52B6F205100A2B206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BDE01B2B6F205300A2B206;
+			remoteInfo = "Dug WatchKit Extension";
+		};
+		D3BDE03C2B6F205400A2B206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BDDFE52B6F205100A2B206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BDE0102B6F205200A2B206;
+			remoteInfo = "Dug WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3BDE0482B6F205400A2B206 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3BDE01D2B6F205300A2B206 /* Dug WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE04C2B6F205400A2B206 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D3BDE0122B6F205200A2B206 /* Dug WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00EB0E6C222838D79DBD1B1F /* Pods_Dug_DugUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dug_DugUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1346F57FB49E89CE3418138B /* Pods_DugTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DugTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210EE91AC1FD64B13412370E /* Pods-DugTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DugTests.release.xcconfig"; path = "Target Support Files/Pods-DugTests/Pods-DugTests.release.xcconfig"; sourceTree = "<group>"; };
+		3167EA16904CE3C13A53DFAC /* Pods_Dug_Dug_WatchKit_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dug_Dug_WatchKit_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F983953F3C82FB7BC0141D1 /* Pods-Dug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug.release.xcconfig"; path = "Target Support Files/Pods-Dug/Pods-Dug.release.xcconfig"; sourceTree = "<group>"; };
+		586D0F81D4D2E52292884E61 /* Pods-Dug-Dug WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug-Dug WatchKit AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dug-Dug WatchKit AppUITests/Pods-Dug-Dug WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EDB93730E4C4FD74FCC34F2 /* Pods-Dug-DugUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug-DugUITests.release.xcconfig"; path = "Target Support Files/Pods-Dug-DugUITests/Pods-Dug-DugUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F449F2C6637FBFCFEDF285A /* Pods-Dug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug.debug.xcconfig"; path = "Target Support Files/Pods-Dug/Pods-Dug.debug.xcconfig"; sourceTree = "<group>"; };
+		60F307D1A7E9E47761332DC4 /* Pods_Dug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C70DFDACAEAEB85A9158262 /* Pods-Dug WatchKit AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug WatchKit AppTests.release.xcconfig"; path = "Target Support Files/Pods-Dug WatchKit AppTests/Pods-Dug WatchKit AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CAA643523A5481DD647B26B /* Pods_Dug_WatchKit_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dug_WatchKit_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835B96E6D71E56F5E3AC3A31 /* Pods-Dug-DugUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug-DugUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dug-DugUITests/Pods-Dug-DugUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90E09DE903A88913F5A360B0 /* Pods-Dug WatchKit AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug WatchKit AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Dug WatchKit AppTests/Pods-Dug WatchKit AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3CE7CC22542217CD3582037 /* Pods-Dug-Dug WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug-Dug WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Dug-Dug WatchKit AppUITests/Pods-Dug-Dug WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2046D8F96C8E290B291FEA5 /* Pods-DugTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DugTests.debug.xcconfig"; path = "Target Support Files/Pods-DugTests/Pods-DugTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3BDDFED2B6F205100A2B206 /* Dug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDDFF02B6F205100A2B206 /* DugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DugApp.swift; sourceTree = "<group>"; };
+		D3BDDFF22B6F205100A2B206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3BDDFF42B6F205200A2B206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3BDDFF72B6F205200A2B206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3BDDFFD2B6F205200A2B206 /* DugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDE0012B6F205200A2B206 /* DugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DugTests.swift; sourceTree = "<group>"; };
+		D3BDE0072B6F205200A2B206 /* DugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDE00B2B6F205200A2B206 /* DugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DugUITests.swift; sourceTree = "<group>"; };
+		D3BDE00D2B6F205200A2B206 /* DugUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DugUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3BDE0112B6F205200A2B206 /* Dug WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dug WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDE0162B6F205300A2B206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3BDE01C2B6F205300A2B206 /* Dug WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dug WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDE0212B6F205300A2B206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3BDE0232B6F205300A2B206 /* DugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DugApp.swift; sourceTree = "<group>"; };
+		D3BDE0252B6F205300A2B206 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D3BDE0272B6F205400A2B206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3BDE02A2B6F205400A2B206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3BDE02C2B6F205400A2B206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BDE0312B6F205400A2B206 /* Dug WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dug WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDE0352B6F205400A2B206 /* Dug_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dug_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		D3BDE03B2B6F205400A2B206 /* Dug WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dug WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BDE03F2B6F205400A2B206 /* Dug_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dug_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		D3BDE0412B6F205400A2B206 /* Dug_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dug_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3BDE05D2B6F210000A2B206 /* BubbleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleBackground.swift; sourceTree = "<group>"; };
+		D3BDE05F2B6F21AC00A2B206 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		D3BDE0642B6F312300A2B206 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
+		D3BDE0662B6F313D00A2B206 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		D3BDE0692B6F33E500A2B206 /* Voices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Voices.swift; path = Dug/Voices.swift; sourceTree = SOURCE_ROOT; };
+		D3BDE06B2B6F36B100A2B206 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
+		D3BDE06E2B6F36E800A2B206 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		D3BDE0702B6F370C00A2B206 /* BubbleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleBackground.swift; sourceTree = "<group>"; };
+		D3BDE0722B6F371800A2B206 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		D3BDE0742B6F375A00A2B206 /* Voices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voices.swift; sourceTree = "<group>"; };
+		D3BDE0762B6F63BD00A2B206 /* StartMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMode.swift; sourceTree = "<group>"; };
+		D3BDE0782B6F647600A2B206 /* StartMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3BDDFEA2B6F205100A2B206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E0CF3F8DB712E158175479 /* Pods_Dug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDDFFA2B6F205200A2B206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933598E14F26DD090A18C766 /* Pods_DugTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0042B6F205200A2B206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BC703F26AA9C7765096B64 /* Pods_Dug_DugUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0192B6F205300A2B206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE02E2B6F205400A2B206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6EAD129B644FA067123EAA /* Pods_Dug_WatchKit_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0382B6F205400A2B206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61196C9D00499F8559175466 /* Pods_Dug_Dug_WatchKit_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53369A5054FB6415BCAE2403 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60F307D1A7E9E47761332DC4 /* Pods_Dug.framework */,
+				7CAA643523A5481DD647B26B /* Pods_Dug_WatchKit_AppTests.framework */,
+				3167EA16904CE3C13A53DFAC /* Pods_Dug_Dug_WatchKit_AppUITests.framework */,
+				00EB0E6C222838D79DBD1B1F /* Pods_Dug_DugUITests.framework */,
+				1346F57FB49E89CE3418138B /* Pods_DugTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66344AFF620EECB9154E0EB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F449F2C6637FBFCFEDF285A /* Pods-Dug.debug.xcconfig */,
+				4F983953F3C82FB7BC0141D1 /* Pods-Dug.release.xcconfig */,
+				90E09DE903A88913F5A360B0 /* Pods-Dug WatchKit AppTests.debug.xcconfig */,
+				7C70DFDACAEAEB85A9158262 /* Pods-Dug WatchKit AppTests.release.xcconfig */,
+				586D0F81D4D2E52292884E61 /* Pods-Dug-Dug WatchKit AppUITests.debug.xcconfig */,
+				A3CE7CC22542217CD3582037 /* Pods-Dug-Dug WatchKit AppUITests.release.xcconfig */,
+				835B96E6D71E56F5E3AC3A31 /* Pods-Dug-DugUITests.debug.xcconfig */,
+				5EDB93730E4C4FD74FCC34F2 /* Pods-Dug-DugUITests.release.xcconfig */,
+				C2046D8F96C8E290B291FEA5 /* Pods-DugTests.debug.xcconfig */,
+				210EE91AC1FD64B13412370E /* Pods-DugTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3BDDFE42B6F205100A2B206 = {
+			isa = PBXGroup;
+			children = (
+				66344AFF620EECB9154E0EB4 /* Pods */,
+				D3BDDFEF2B6F205100A2B206 /* Dug */,
+				D3BDE0002B6F205200A2B206 /* DugTests */,
+				D3BDE00A2B6F205200A2B206 /* DugUITests */,
+				D3BDE0152B6F205200A2B206 /* Dug WatchKit App */,
+				D3BDE0202B6F205300A2B206 /* Dug WatchKit Extension */,
+				D3BDE0342B6F205400A2B206 /* Dug WatchKit AppTests */,
+				D3BDE03E2B6F205400A2B206 /* Dug WatchKit AppUITests */,
+				D3BDDFEE2B6F205100A2B206 /* Products */,
+				53369A5054FB6415BCAE2403 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3BDDFEE2B6F205100A2B206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDDFED2B6F205100A2B206 /* Dug.app */,
+				D3BDDFFD2B6F205200A2B206 /* DugTests.xctest */,
+				D3BDE0072B6F205200A2B206 /* DugUITests.xctest */,
+				D3BDE0112B6F205200A2B206 /* Dug WatchKit App.app */,
+				D3BDE01C2B6F205300A2B206 /* Dug WatchKit Extension.appex */,
+				D3BDE0312B6F205400A2B206 /* Dug WatchKit AppTests.xctest */,
+				D3BDE03B2B6F205400A2B206 /* Dug WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3BDDFEF2B6F205100A2B206 /* Dug */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE0682B6F325200A2B206 /* Welcome */,
+				D3BDE0632B6F2E2600A2B206 /* Resources */,
+				D3BDE05C2B6F20E900A2B206 /* Components */,
+				D3BDDFF02B6F205100A2B206 /* DugApp.swift */,
+				D3BDDFF22B6F205100A2B206 /* ContentView.swift */,
+				D3BDDFF62B6F205200A2B206 /* Preview Content */,
+			);
+			path = Dug;
+			sourceTree = "<group>";
+		};
+		D3BDDFF62B6F205200A2B206 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDDFF72B6F205200A2B206 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3BDE0002B6F205200A2B206 /* DugTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE0012B6F205200A2B206 /* DugTests.swift */,
+			);
+			path = DugTests;
+			sourceTree = "<group>";
+		};
+		D3BDE00A2B6F205200A2B206 /* DugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE00B2B6F205200A2B206 /* DugUITests.swift */,
+				D3BDE00D2B6F205200A2B206 /* DugUITestsLaunchTests.swift */,
+			);
+			path = DugUITests;
+			sourceTree = "<group>";
+		};
+		D3BDE0152B6F205200A2B206 /* Dug WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE0162B6F205300A2B206 /* Assets.xcassets */,
+			);
+			path = "Dug WatchKit App";
+			sourceTree = "<group>";
+		};
+		D3BDE0202B6F205300A2B206 /* Dug WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE0212B6F205300A2B206 /* ContentView.swift */,
+				D3BDE0702B6F370C00A2B206 /* BubbleBackground.swift */,
+				D3BDE0642B6F312300A2B206 /* AppTabNavigation.swift */,
+				D3BDE0232B6F205300A2B206 /* DugApp.swift */,
+				D3BDE0252B6F205300A2B206 /* ComplicationController.swift */,
+				D3BDE06E2B6F36E800A2B206 /* HomeScreen.swift */,
+				D3BDE0722B6F371800A2B206 /* BubbleView.swift */,
+				D3BDE0742B6F375A00A2B206 /* Voices.swift */,
+				D3BDE0762B6F63BD00A2B206 /* StartMode.swift */,
+				D3BDE0272B6F205400A2B206 /* Assets.xcassets */,
+				D3BDE02C2B6F205400A2B206 /* Info.plist */,
+				D3BDE0292B6F205400A2B206 /* Preview Content */,
+			);
+			path = "Dug WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D3BDE0292B6F205400A2B206 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE02A2B6F205400A2B206 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3BDE0342B6F205400A2B206 /* Dug WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE0352B6F205400A2B206 /* Dug_WatchKit_AppTests.swift */,
+			);
+			path = "Dug WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		D3BDE03E2B6F205400A2B206 /* Dug WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE03F2B6F205400A2B206 /* Dug_WatchKit_AppUITests.swift */,
+				D3BDE0412B6F205400A2B206 /* Dug_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Dug WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		D3BDE05C2B6F20E900A2B206 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE05D2B6F210000A2B206 /* BubbleBackground.swift */,
+				D3BDE05F2B6F21AC00A2B206 /* BubbleView.swift */,
+				D3BDE06B2B6F36B100A2B206 /* AppTabNavigation.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D3BDE0632B6F2E2600A2B206 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDDFF42B6F205200A2B206 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3BDE0682B6F325200A2B206 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE0662B6F313D00A2B206 /* HomeScreen.swift */,
+				D3BDE0692B6F33E500A2B206 /* Voices.swift */,
+				D3BDE0782B6F647600A2B206 /* StartMode.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3BDDFEC2B6F205100A2B206 /* Dug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BDE04D2B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug" */;
+			buildPhases = (
+				D13A42B332A2A21483D91980 /* [CP] Check Pods Manifest.lock */,
+				D3BDDFE92B6F205100A2B206 /* Sources */,
+				D3BDDFEA2B6F205100A2B206 /* Frameworks */,
+				D3BDDFEB2B6F205100A2B206 /* Resources */,
+				D3BDE04C2B6F205400A2B206 /* Embed Watch Content */,
+				CE8727FED334E475F0F2264E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BDE0142B6F205200A2B206 /* PBXTargetDependency */,
+			);
+			name = Dug;
+			productName = Dug;
+			productReference = D3BDDFED2B6F205100A2B206 /* Dug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3BDDFFC2B6F205200A2B206 /* DugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BDE0502B6F205400A2B206 /* Build configuration list for PBXNativeTarget "DugTests" */;
+			buildPhases = (
+				FE1FF506F77EEC2302E78258 /* [CP] Check Pods Manifest.lock */,
+				D3BDDFF92B6F205200A2B206 /* Sources */,
+				D3BDDFFA2B6F205200A2B206 /* Frameworks */,
+				D3BDDFFB2B6F205200A2B206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BDDFFF2B6F205200A2B206 /* PBXTargetDependency */,
+			);
+			name = DugTests;
+			productName = DugTests;
+			productReference = D3BDDFFD2B6F205200A2B206 /* DugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3BDE0062B6F205200A2B206 /* DugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BDE0532B6F205400A2B206 /* Build configuration list for PBXNativeTarget "DugUITests" */;
+			buildPhases = (
+				1E43E2D0CA4FD6C45E09ADEB /* [CP] Check Pods Manifest.lock */,
+				D3BDE0032B6F205200A2B206 /* Sources */,
+				D3BDE0042B6F205200A2B206 /* Frameworks */,
+				D3BDE0052B6F205200A2B206 /* Resources */,
+				69C6A038836995385B137817 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BDE0092B6F205200A2B206 /* PBXTargetDependency */,
+			);
+			name = DugUITests;
+			productName = DugUITests;
+			productReference = D3BDE0072B6F205200A2B206 /* DugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D3BDE0102B6F205200A2B206 /* Dug WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BDE0492B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit App" */;
+			buildPhases = (
+				D3BDE00F2B6F205200A2B206 /* Resources */,
+				D3BDE0482B6F205400A2B206 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BDE01F2B6F205300A2B206 /* PBXTargetDependency */,
+			);
+			name = "Dug WatchKit App";
+			productName = "Dug WatchKit App";
+			productReference = D3BDE0112B6F205200A2B206 /* Dug WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D3BDE01B2B6F205300A2B206 /* Dug WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BDE0452B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit Extension" */;
+			buildPhases = (
+				D3BDE0182B6F205300A2B206 /* Sources */,
+				D3BDE0192B6F205300A2B206 /* Frameworks */,
+				D3BDE01A2B6F205300A2B206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dug WatchKit Extension";
+			productName = "Dug WatchKit Extension";
+			productReference = D3BDE01C2B6F205300A2B206 /* Dug WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D3BDE0302B6F205400A2B206 /* Dug WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BDE0562B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit AppTests" */;
+			buildPhases = (
+				2EEF4D3DE1A029307497CD1A /* [CP] Check Pods Manifest.lock */,
+				D3BDE02D2B6F205400A2B206 /* Sources */,
+				D3BDE02E2B6F205400A2B206 /* Frameworks */,
+				D3BDE02F2B6F205400A2B206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BDE0332B6F205400A2B206 /* PBXTargetDependency */,
+			);
+			name = "Dug WatchKit AppTests";
+			productName = "Dug WatchKit AppTests";
+			productReference = D3BDE0312B6F205400A2B206 /* Dug WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3BDE03A2B6F205400A2B206 /* Dug WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BDE0592B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit AppUITests" */;
+			buildPhases = (
+				9D767F10BF8FAE05DAF47E2B /* [CP] Check Pods Manifest.lock */,
+				D3BDE0372B6F205400A2B206 /* Sources */,
+				D3BDE0382B6F205400A2B206 /* Frameworks */,
+				D3BDE0392B6F205400A2B206 /* Resources */,
+				710774C014D83C3E402C1291 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BDE03D2B6F205400A2B206 /* PBXTargetDependency */,
+			);
+			name = "Dug WatchKit AppUITests";
+			productName = "Dug WatchKit AppUITests";
+			productReference = D3BDE03B2B6F205400A2B206 /* Dug WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3BDDFE52B6F205100A2B206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D3BDDFEC2B6F205100A2B206 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D3BDDFFC2B6F205200A2B206 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3BDDFEC2B6F205100A2B206;
+					};
+					D3BDE0062B6F205200A2B206 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3BDDFEC2B6F205100A2B206;
+					};
+					D3BDE0102B6F205200A2B206 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D3BDE01B2B6F205300A2B206 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D3BDE0302B6F205400A2B206 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3BDE01B2B6F205300A2B206;
+					};
+					D3BDE03A2B6F205400A2B206 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D3BDE0102B6F205200A2B206;
+					};
+				};
+			};
+			buildConfigurationList = D3BDDFE82B6F205100A2B206 /* Build configuration list for PBXProject "Dug" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3BDDFE42B6F205100A2B206;
+			productRefGroup = D3BDDFEE2B6F205100A2B206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3BDDFEC2B6F205100A2B206 /* Dug */,
+				D3BDDFFC2B6F205200A2B206 /* DugTests */,
+				D3BDE0062B6F205200A2B206 /* DugUITests */,
+				D3BDE0102B6F205200A2B206 /* Dug WatchKit App */,
+				D3BDE01B2B6F205300A2B206 /* Dug WatchKit Extension */,
+				D3BDE0302B6F205400A2B206 /* Dug WatchKit AppTests */,
+				D3BDE03A2B6F205400A2B206 /* Dug WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3BDDFEB2B6F205100A2B206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDDFF82B6F205200A2B206 /* Preview Assets.xcassets in Resources */,
+				D3BDDFF52B6F205200A2B206 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDDFFB2B6F205200A2B206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0052B6F205200A2B206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE00F2B6F205200A2B206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE0172B6F205300A2B206 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE01A2B6F205300A2B206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE02B2B6F205400A2B206 /* Preview Assets.xcassets in Resources */,
+				D3BDE0282B6F205400A2B206 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE02F2B6F205400A2B206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0392B6F205400A2B206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E43E2D0CA4FD6C45E09ADEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dug-DugUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EEF4D3DE1A029307497CD1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dug WatchKit AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C6A038836995385B137817 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dug-DugUITests/Pods-Dug-DugUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dug-DugUITests/Pods-Dug-DugUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dug-DugUITests/Pods-Dug-DugUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710774C014D83C3E402C1291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dug-Dug WatchKit AppUITests/Pods-Dug-Dug WatchKit AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dug-Dug WatchKit AppUITests/Pods-Dug-Dug WatchKit AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dug-Dug WatchKit AppUITests/Pods-Dug-Dug WatchKit AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D767F10BF8FAE05DAF47E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dug-Dug WatchKit AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8727FED334E475F0F2264E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dug/Pods-Dug-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dug/Pods-Dug-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dug/Pods-Dug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13A42B332A2A21483D91980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1FF506F77EEC2302E78258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DugTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3BDDFE92B6F205100A2B206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE06C2B6F36B100A2B206 /* AppTabNavigation.swift in Sources */,
+				D3BDE06A2B6F33E500A2B206 /* Voices.swift in Sources */,
+				D3BDDFF32B6F205100A2B206 /* ContentView.swift in Sources */,
+				D3BDE0602B6F21AC00A2B206 /* BubbleView.swift in Sources */,
+				D3BDE0672B6F313D00A2B206 /* HomeScreen.swift in Sources */,
+				D3BDE0792B6F647600A2B206 /* StartMode.swift in Sources */,
+				D3BDDFF12B6F205100A2B206 /* DugApp.swift in Sources */,
+				D3BDE05E2B6F210000A2B206 /* BubbleBackground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDDFF92B6F205200A2B206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE0022B6F205200A2B206 /* DugTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0032B6F205200A2B206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE00C2B6F205200A2B206 /* DugUITests.swift in Sources */,
+				D3BDE00E2B6F205200A2B206 /* DugUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0182B6F205300A2B206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE07E2B6FFD0300A2B206 /* BubbleView.swift in Sources */,
+				D3BDE07B2B6FFD0300A2B206 /* Voices.swift in Sources */,
+				D3BDE0822B6FFD0300A2B206 /* ComplicationController.swift in Sources */,
+				D3BDE0802B6FFD0300A2B206 /* ContentView.swift in Sources */,
+				D3BDE07F2B6FFD0300A2B206 /* DugApp.swift in Sources */,
+				D3BDE07D2B6FFD0300A2B206 /* AppTabNavigation.swift in Sources */,
+				D3BDE0812B6FFD0300A2B206 /* BubbleBackground.swift in Sources */,
+				D3BDE07A2B6FFD0300A2B206 /* HomeScreen.swift in Sources */,
+				D3BDE07C2B6FFD0300A2B206 /* StartMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE02D2B6F205400A2B206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE0362B6F205400A2B206 /* Dug_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BDE0372B6F205400A2B206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BDE0422B6F205400A2B206 /* Dug_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				D3BDE0402B6F205400A2B206 /* Dug_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3BDDFFF2B6F205200A2B206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BDDFEC2B6F205100A2B206 /* Dug */;
+			targetProxy = D3BDDFFE2B6F205200A2B206 /* PBXContainerItemProxy */;
+		};
+		D3BDE0092B6F205200A2B206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BDDFEC2B6F205100A2B206 /* Dug */;
+			targetProxy = D3BDE0082B6F205200A2B206 /* PBXContainerItemProxy */;
+		};
+		D3BDE0142B6F205200A2B206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BDE0102B6F205200A2B206 /* Dug WatchKit App */;
+			targetProxy = D3BDE0132B6F205200A2B206 /* PBXContainerItemProxy */;
+		};
+		D3BDE01F2B6F205300A2B206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BDE01B2B6F205300A2B206 /* Dug WatchKit Extension */;
+			targetProxy = D3BDE01E2B6F205300A2B206 /* PBXContainerItemProxy */;
+		};
+		D3BDE0332B6F205400A2B206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BDE01B2B6F205300A2B206 /* Dug WatchKit Extension */;
+			targetProxy = D3BDE0322B6F205400A2B206 /* PBXContainerItemProxy */;
+		};
+		D3BDE03D2B6F205400A2B206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BDE0102B6F205200A2B206 /* Dug WatchKit App */;
+			targetProxy = D3BDE03C2B6F205400A2B206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3BDE0432B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3BDE0442B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D3BDE0462B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dug WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dug WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dug WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		D3BDE0472B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dug WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dug WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dug WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		D3BDE04A2B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dug_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dug WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dug.Dug;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		D3BDE04B2B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dug_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dug WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.dug.Dug;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		D3BDE04E2B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F449F2C6637FBFCFEDF285A /* Pods-Dug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dug/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3BDE04F2B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F983953F3C82FB7BC0141D1 /* Pods-Dug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dug/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3BDE0512B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2046D8F96C8E290B291FEA5 /* Pods-DugTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.DugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dug.app/Dug";
+			};
+			name = Debug;
+		};
+		D3BDE0522B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210EE91AC1FD64B13412370E /* Pods-DugTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.DugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dug.app/Dug";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3BDE0542B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835B96E6D71E56F5E3AC3A31 /* Pods-Dug-DugUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.DugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dug;
+			};
+			name = Debug;
+		};
+		D3BDE0552B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDB93730E4C4FD74FCC34F2 /* Pods-Dug-DugUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dug.DugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dug;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3BDE0572B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E09DE903A88913F5A360B0 /* Pods-Dug WatchKit AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dug.Dug-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dug WatchKit Extension.appex/Dug WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		D3BDE0582B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C70DFDACAEAEB85A9158262 /* Pods-Dug WatchKit AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dug.Dug-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dug WatchKit Extension.appex/Dug WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		D3BDE05A2B6F205400A2B206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586D0F81D4D2E52292884E61 /* Pods-Dug-Dug WatchKit AppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dug.Dug-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dug WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		D3BDE05B2B6F205400A2B206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CE7CC22542217CD3582037 /* Pods-Dug-Dug WatchKit AppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dug.Dug-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dug WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3BDDFE82B6F205100A2B206 /* Build configuration list for PBXProject "Dug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE0432B6F205400A2B206 /* Debug */,
+				D3BDE0442B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BDE0452B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE0462B6F205400A2B206 /* Debug */,
+				D3BDE0472B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BDE0492B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE04A2B6F205400A2B206 /* Debug */,
+				D3BDE04B2B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BDE04D2B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE04E2B6F205400A2B206 /* Debug */,
+				D3BDE04F2B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BDE0502B6F205400A2B206 /* Build configuration list for PBXNativeTarget "DugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE0512B6F205400A2B206 /* Debug */,
+				D3BDE0522B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BDE0532B6F205400A2B206 /* Build configuration list for PBXNativeTarget "DugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE0542B6F205400A2B206 /* Debug */,
+				D3BDE0552B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BDE0562B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE0572B6F205400A2B206 /* Debug */,
+				D3BDE0582B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BDE0592B6F205400A2B206 /* Build configuration list for PBXNativeTarget "Dug WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BDE05A2B6F205400A2B206 /* Debug */,
+				D3BDE05B2B6F205400A2B206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3BDDFE52B6F205100A2B206 /* Project object */;
+}

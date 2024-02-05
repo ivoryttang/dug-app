@@ -1,0 +1,196 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb81569188f449323572df82a5784cad6222dcd447",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator15.5",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Products",
+          "derivedDataPath" : "/Users/ivorytang/Desktop/Dug/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/PrecompiledHeaders",
+          "pchPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/Intermediates.noindex",
+              "SYMROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "31F19566-6B5B-4D81-83F6-5E7E573BDD1E",
+              "TARGET_DEVICE_MODEL" : "iPhone14,5",
+              "TARGET_DEVICE_OS_VERSION" : "15.5",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb815691886e38bc319e2aa96350de4c066e960fac",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator15.5",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Products",
+          "derivedDataPath" : "/Users/ivorytang/Desktop/Dug/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/PrecompiledHeaders",
+          "pchPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/Intermediates.noindex",
+              "SYMROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "31F19566-6B5B-4D81-83F6-5E7E573BDD1E",
+              "TARGET_DEVICE_MODEL" : "iPhone14,5",
+              "TARGET_DEVICE_OS_VERSION" : "15.5",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    },
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb815691885690cfbdbd6fcfdc1c83e167932046ab",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator15.5",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Products",
+          "derivedDataPath" : "/Users/ivorytang/Desktop/Dug/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/PrecompiledHeaders",
+          "pchPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/Intermediates.noindex",
+              "SYMROOT" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug WatchKit App/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "31F19566-6B5B-4D81-83F6-5E7E573BDD1E",
+              "TARGET_DEVICE_MODEL" : "iPhone14,5",
+              "TARGET_DEVICE_OS_VERSION" : "15.5",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/ivorytang/Desktop/Dug/Dug.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Products",
+      "derivedDataPath" : "/Users/ivorytang/Desktop/Dug/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,5",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "31F19566-6B5B-4D81-83F6-5E7E573BDD1E",
+          "TARGET_DEVICE_MODEL" : "iPhone14,5",
+          "TARGET_DEVICE_OS_VERSION" : "15.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

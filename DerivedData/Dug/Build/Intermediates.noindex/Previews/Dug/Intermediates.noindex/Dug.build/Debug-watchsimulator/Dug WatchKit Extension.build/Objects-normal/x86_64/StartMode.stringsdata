@@ -1,0 +1,16 @@
+{
+  "source": "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/StartMode.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings"
+      },
+      {
+        "comment": "",
+        "key": "Start Speaking"
+      }
+    ]
+  },
+  "version": 1
+}

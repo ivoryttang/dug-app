@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Dug WatchKit Extension in Dug, no dependencies
+Dug WatchKit App in Dug, depends on:
+Dug WatchKit Extension in Dug (explicit)
+Dug in Dug, depends on:
+Dug WatchKit App in Dug (explicit)

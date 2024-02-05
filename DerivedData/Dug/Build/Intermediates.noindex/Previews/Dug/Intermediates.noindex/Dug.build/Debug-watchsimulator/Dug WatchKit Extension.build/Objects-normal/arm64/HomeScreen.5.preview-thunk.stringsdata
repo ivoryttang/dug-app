@@ -1,0 +1,20 @@
+{
+  "source": "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Intermediates.noindex/Previews/Dug/Intermediates.noindex/Dug.build/Debug-watchsimulator/Dug WatchKit Extension.build/Objects-normal/arm64/HomeScreen.5.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Dug"
+      },
+      {
+        "comment": "",
+        "key": "Give your furry friend a voice"
+      },
+      {
+        "comment": "",
+        "key": "Sign In"
+      }
+    ]
+  },
+  "version": 1
+}

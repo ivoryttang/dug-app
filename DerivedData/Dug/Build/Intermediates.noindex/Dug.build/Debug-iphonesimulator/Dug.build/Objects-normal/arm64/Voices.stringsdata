@@ -1,0 +1,20 @@
+{
+  "source": "/Users/ivorytang/Desktop/Dug/Dug/Voices.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Voice"
+      },
+      {
+        "comment": "",
+        "key": "Personality"
+      },
+      {
+        "comment": "",
+        "key": "Continue"
+      }
+    ]
+  },
+  "version": 1
+}

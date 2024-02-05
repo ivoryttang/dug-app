@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Assets.car</key>
+		<data>
+		KEkP3Zcq7xA/oArVsQogWpehp94=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		d0Q9MBQNKxpRX8TaFjXUIOotT+8=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Watch/Dug WatchKit App.app/Assets.car</key>
+		<data>
+		P4x1nDBqvn9Ayo2fR6Ge9TvI3Yo=
+		</data>
+		<key>Watch/Dug WatchKit App.app/Dug WatchKit App</key>
+		<data>
+		DOv7ozy/U66UW2LXNj9gtZUkNKE=
+		</data>
+		<key>Watch/Dug WatchKit App.app/Info.plist</key>
+		<data>
+		UfC++oO0Rn/RNjA0zlN8KdeLqMA=
+		</data>
+		<key>Watch/Dug WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/Assets.car</key>
+		<data>
+		VDCbXXX1qV/JdZJhocS3lDOMRRw=
+		</data>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/Dug WatchKit Extension</key>
+		<data>
+		m/Y6QMp+DICXkqK7L4ndtjFh9pQ=
+		</data>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/Info.plist</key>
+		<data>
+		SPCdIoQaEktuxQAI1m4NUqK3HUI=
+		</data>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/_CodeSignature/CodeResources</key>
+		<data>
+		QK1qURW4ejoqS3xRd9NhRbIP+Cw=
+		</data>
+		<key>Watch/Dug WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		nGlBqbKLAg+MMFvmbUbGXRNk3S0=
+		</data>
+		<key>Watch/Dug WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		GTaVnL4NcPgEIW/AdEwy33139l8=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u4b4prx8Qm57k94hhono3r3PFuBptrPtGx1rhQmzz6Q=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JcsIvKRrJwwFQFmmJM0CQngQ6caMRXUYJ8XGBgi/bzU=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/Dug WatchKit App</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7vq0yooDjCwhfxhGiGby5HOoBzb087BIAzxuQ6YLV7g=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sVJF+O1KOTBTmY16mPAv9dWsRyXbkKRlhKZKbD6SZtg=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/PkgInfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KA=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CapGMpXLQMZNBZeXLxsTmVxvdPglJpCGQzci0pEpXhQ=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/Dug WatchKit Extension</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jpUmJ0gaMh1DOdS003mLTVJ+VjB936pp9GlkyQDA62I=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DtoJPLairevMLFEJgtSlzDpB0sDmoZbVL99SFU8QIoI=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/PlugIns/Dug WatchKit Extension.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Ktj0U2q5ciz32YFkXij3dM4JTe50EPJoVk/PJXZvLg=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4vDuMwB09ERZYd967XXNhPFnVs/bG4UweezF4Q2qRnA=
+			</data>
+		</dict>
+		<key>Watch/Dug WatchKit App.app/_WatchKitStub/WK</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qF7kEd6oxi1BzPg0/GxfH4TQOVPGGYVoyK4QtL1g0KI=
+			</data>
+		</dict>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

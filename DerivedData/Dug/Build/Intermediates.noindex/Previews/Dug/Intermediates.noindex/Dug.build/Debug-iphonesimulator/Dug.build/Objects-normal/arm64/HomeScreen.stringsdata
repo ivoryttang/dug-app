@@ -1,0 +1,20 @@
+{
+  "source": "/Users/ivorytang/Desktop/Dug/Dug/Welcome/HomeScreen.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Dug"
+      },
+      {
+        "comment": "",
+        "key": "Give your furry friend a voice"
+      },
+      {
+        "comment": "",
+        "key": "Sign In"
+      }
+    ]
+  },
+  "version": 1
+}

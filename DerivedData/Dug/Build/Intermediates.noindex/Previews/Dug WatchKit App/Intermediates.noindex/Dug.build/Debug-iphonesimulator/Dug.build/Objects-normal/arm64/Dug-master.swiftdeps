@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "8068f4fc0a4b745e42570a7ff5235f066d9ace380526f01b015a2b25aaaed21c"
+build_start_time: [1707113106, 544525146]
+build_end_time: [1707113106, 849286079]
+inputs:
+  "/Users/ivorytang/Desktop/Dug/Dug/Components/AppTabNavigation.swift": !private [1707015993, 89316368]
+  "/Users/ivorytang/Desktop/Dug/Dug/Components/BubbleBackground.swift": !private [1707014466, 163123607]
+  "/Users/ivorytang/Desktop/Dug/Dug/Components/BubbleView.swift": !private [1707010607, 147109031]
+  "/Users/ivorytang/Desktop/Dug/Dug/ContentView.swift": !private [1707014598, 404848098]
+  "/Users/ivorytang/Desktop/Dug/Dug/DugApp.swift": !private [1707010257, 789500236]
+  "/Users/ivorytang/Desktop/Dug/Dug/Voices.swift": !private [1707027796, 310562610]
+  "/Users/ivorytang/Desktop/Dug/Dug/Welcome/HomeScreen.swift": !private [1707027738, 570554733]
+  "/Users/ivorytang/Desktop/Dug/Dug/Welcome/StartMode.swift": !private [1707113106, 356917619]

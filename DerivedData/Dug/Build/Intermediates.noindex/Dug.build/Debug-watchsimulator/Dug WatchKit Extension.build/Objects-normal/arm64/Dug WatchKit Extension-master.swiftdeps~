@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "45d6f1d04c0ebe33acc63a859bed5755145f0cc94b54a8269c6c728da0a82453"
+build_start_time: [1707071701, 231258869]
+build_end_time: [1707071702, 5432128]
+inputs:
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/AppTabNavigation.swift": [1707014931, 587269783]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/BubbleBackground.swift": [1707066714, 799774169]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/BubbleView.swift": [1707016102, 976717948]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/ComplicationController.swift": [1707010259, 513106822]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/ContentView.swift": [1707015911, 49798488]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/DugApp.swift": [1707010259, 511818408]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/HomeScreen.swift": [1707027969, 69618]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/StartMode.swift": [1707065326, 724911928]
+  "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/Voices.swift": [1707027531, 822173118]

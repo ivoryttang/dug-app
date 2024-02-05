@@ -1,0 +1,6 @@
+framework module Pods_Dug_Dug_WatchKit_AppUITests {
+  umbrella header "Pods-Dug-Dug WatchKit AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

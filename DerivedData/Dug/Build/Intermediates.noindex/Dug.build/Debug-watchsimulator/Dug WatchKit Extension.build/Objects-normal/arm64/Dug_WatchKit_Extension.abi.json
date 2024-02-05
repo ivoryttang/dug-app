@@ -1,0 +1,4354 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BubbleView",
+      "printedName": "BubbleView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "size",
+          "printedName": "size",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV4sizeSdvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV4sizeSdvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV4sizeSdvg",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV4sizeSdvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV4sizeSdvs",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV4sizeSdvs",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV4sizeSdvM",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV4sizeSdvM",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "xOffset",
+          "printedName": "xOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvg",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvs",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvs",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvM",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7xOffsetSdvM",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "yOffset",
+          "printedName": "yOffset",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvg",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvs",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvs",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvM",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7yOffsetSdvM",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "opacity",
+          "printedName": "opacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7opacitySdvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7opacitySdvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7opacitySdvg",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7opacitySdvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7opacitySdvs",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7opacitySdvs",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV7opacitySdvM",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV7opacitySdvM",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_shimmer",
+          "printedName": "_shimmer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV8_shimmer33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV8_shimmer33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySbGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_shimmerDelay",
+          "printedName": "_shimmerDelay",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV13_shimmerDelay33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySdGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV13_shimmerDelay33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySdGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_float",
+          "printedName": "_float",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV6_float33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV6_float33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySbGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_floatDelay",
+          "printedName": "_floatDelay",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Double>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV11_floatDelay33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySdGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV11_floatDelay33_14F0EC01A981DD54AA0254EA4258BDD0LL7SwiftUI5StateVySdGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(size:xOffset:yOffset:opacity:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BubbleView",
+              "printedName": "Dug_WatchKit_Extension.BubbleView",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "hasDefaultArg": true,
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "hasDefaultArg": true,
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "hasDefaultArg": true,
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "hasDefaultArg": true,
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewV4size7xOffset01yH07opacityACSd_S3dtcfc",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV4size7xOffset01yH07opacityACSd_S3dtcfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BubbleView",
+              "printedName": "Dug_WatchKit_Extension.BubbleView",
+              "usr": "s:22Dug_WatchKit_Extension10BubbleViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension10BubbleViewVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension10BubbleViewV",
+      "mangledName": "$s22Dug_WatchKit_Extension10BubbleViewV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BubbleView_Previews",
+      "printedName": "BubbleView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension19BubbleView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s22Dug_WatchKit_Extension19BubbleView_PreviewsV8previewsQrvpZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension19BubbleView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s22Dug_WatchKit_Extension19BubbleView_PreviewsV8previewsQrvgZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BubbleView_Previews",
+              "printedName": "Dug_WatchKit_Extension.BubbleView_Previews",
+              "usr": "s:22Dug_WatchKit_Extension19BubbleView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension19BubbleView_PreviewsVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension19BubbleView_PreviewsVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension19BubbleView_PreviewsV",
+      "mangledName": "$s22Dug_WatchKit_Extension19BubbleView_PreviewsV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Voices",
+      "printedName": "Voices",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_showingSettings",
+          "printedName": "_showingSettings",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesV16_showingSettings33_E91259AD6B6D54B0CD342BC91ED068DBLL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesV16_showingSettings33_E91259AD6B6D54B0CD342BC91ED068DBLL7SwiftUI5StateVySbGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "activate",
+          "printedName": "activate()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesV8activateyyF",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesV8activateyyF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Voice",
+          "printedName": "Voice",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "matt",
+              "printedName": "matt",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Voice.Type) -> Dug_WatchKit_Extension.Voices.Voice",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Voice",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO4mattyA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO4mattyA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "jen",
+              "printedName": "jen",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Voice.Type) -> Dug_WatchKit_Extension.Voices.Voice",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Voice",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO3jenyA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO3jenyA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "steve",
+              "printedName": "steve",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Voice.Type) -> Dug_WatchKit_Extension.Voices.Voice",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Voice",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO5steveyA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO5steveyA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 2
+            },
+            {
+              "kind": "Var",
+              "name": "paula",
+              "printedName": "paula",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Voice.Type) -> Dug_WatchKit_Extension.Voices.Voice",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Voice",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO5paulayA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO5paulayA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 3
+            },
+            {
+              "kind": "Var",
+              "name": "id",
+              "printedName": "id",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Voice",
+                  "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO2idAEvp",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO2idAEvp",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO2idAEvg",
+                  "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO2idAEvg",
+                  "moduleName": "Dug_WatchKit_Extension",
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(rawValue:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Dug_WatchKit_Extension.Voices.Voice?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO8rawValueAESgSS_tcfc",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO8rawValueAESgSS_tcfc",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Var",
+              "name": "rawValue",
+              "printedName": "rawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO8rawValueSSvp",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO8rawValueSSvp",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO8rawValueSSvg",
+                  "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO8rawValueSSvg",
+                  "moduleName": "Dug_WatchKit_Extension",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "allCases",
+              "printedName": "allCases",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Dug_WatchKit_Extension.Voices.Voice]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO8allCasesSayAEGvpZ",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO8allCasesSayAEGvpZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Dug_WatchKit_Extension.Voices.Voice]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Voice",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO8allCasesSayAEGvgZ",
+                  "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO8allCasesSayAEGvgZ",
+                  "moduleName": "Dug_WatchKit_Extension",
+                  "static": true,
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesV5VoiceO",
+          "moduleName": "Dug_WatchKit_Extension",
+          "enumRawTypeName": "String",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "RawRepresentable",
+              "printedName": "RawRepresentable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "RawValue",
+                  "printedName": "RawValue",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:SY",
+              "mangledName": "$sSY"
+            },
+            {
+              "kind": "Conformance",
+              "name": "CaseIterable",
+              "printedName": "CaseIterable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "AllCases",
+                  "printedName": "AllCases",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Dug_WatchKit_Extension.Voices.Voice]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Voice",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:s12CaseIterableP",
+              "mangledName": "$ss12CaseIterableP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Identifiable",
+              "printedName": "Identifiable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "ID",
+                  "printedName": "ID",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Voice",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:s12IdentifiableP",
+              "mangledName": "$ss12IdentifiableP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_selectedVoice",
+          "printedName": "_selectedVoice",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Dug_WatchKit_Extension.Voices.Voice>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Voice",
+                  "printedName": "Dug_WatchKit_Extension.Voices.Voice",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV5VoiceO"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesV14_selectedVoice33_E91259AD6B6D54B0CD342BC91ED068DBLL7SwiftUI5StateVyAC0G0OGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesV14_selectedVoice33_E91259AD6B6D54B0CD342BC91ED068DBLL7SwiftUI5StateVyAC0G0OGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Personality",
+          "printedName": "Personality",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "funny",
+              "printedName": "funny",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Personality.Type) -> Dug_WatchKit_Extension.Voices.Personality",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Personality",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO5funnyyA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO5funnyyA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "empathetic",
+              "printedName": "empathetic",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Personality.Type) -> Dug_WatchKit_Extension.Voices.Personality",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Personality",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO10empatheticyA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO10empatheticyA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "didactic",
+              "printedName": "didactic",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Personality.Type) -> Dug_WatchKit_Extension.Voices.Personality",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Personality",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO8didacticyA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO8didacticyA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 2
+            },
+            {
+              "kind": "Var",
+              "name": "friendly",
+              "printedName": "friendly",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Dug_WatchKit_Extension.Voices.Personality.Type) -> Dug_WatchKit_Extension.Voices.Personality",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Personality",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO8friendlyyA2EmF",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO8friendlyyA2EmF",
+              "moduleName": "Dug_WatchKit_Extension",
+              "fixedbinaryorder": 3
+            },
+            {
+              "kind": "Var",
+              "name": "id",
+              "printedName": "id",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Personality",
+                  "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO2idAEvp",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO2idAEvp",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO2idAEvg",
+                  "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO2idAEvg",
+                  "moduleName": "Dug_WatchKit_Extension",
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(rawValue:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Dug_WatchKit_Extension.Voices.Personality?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO8rawValueAESgSS_tcfc",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO8rawValueAESgSS_tcfc",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Var",
+              "name": "rawValue",
+              "printedName": "rawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO8rawValueSSvp",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO8rawValueSSvp",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO8rawValueSSvg",
+                  "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO8rawValueSSvg",
+                  "moduleName": "Dug_WatchKit_Extension",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "allCases",
+              "printedName": "allCases",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Dug_WatchKit_Extension.Voices.Personality]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO8allCasesSayAEGvpZ",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO8allCasesSayAEGvpZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Dug_WatchKit_Extension.Voices.Personality]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Personality",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO8allCasesSayAEGvgZ",
+                  "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO8allCasesSayAEGvgZ",
+                  "moduleName": "Dug_WatchKit_Extension",
+                  "static": true,
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesV11PersonalityO",
+          "moduleName": "Dug_WatchKit_Extension",
+          "enumRawTypeName": "String",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "RawRepresentable",
+              "printedName": "RawRepresentable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "RawValue",
+                  "printedName": "RawValue",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:SY",
+              "mangledName": "$sSY"
+            },
+            {
+              "kind": "Conformance",
+              "name": "CaseIterable",
+              "printedName": "CaseIterable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "AllCases",
+                  "printedName": "AllCases",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Dug_WatchKit_Extension.Voices.Personality]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Personality",
+                          "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                          "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:s12CaseIterableP",
+              "mangledName": "$ss12CaseIterableP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Identifiable",
+              "printedName": "Identifiable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "ID",
+                  "printedName": "ID",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Personality",
+                      "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                      "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:s12IdentifiableP",
+              "mangledName": "$ss12IdentifiableP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_selectedPersonality",
+          "printedName": "_selectedPersonality",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Dug_WatchKit_Extension.Voices.Personality>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Personality",
+                  "printedName": "Dug_WatchKit_Extension.Voices.Personality",
+                  "usr": "s:22Dug_WatchKit_Extension6VoicesV11PersonalityO"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesV20_selectedPersonality33_E91259AD6B6D54B0CD342BC91ED068DBLL7SwiftUI5StateVyAC0G0OGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesV20_selectedPersonality33_E91259AD6B6D54B0CD342BC91ED068DBLL7SwiftUI5StateVyAC0G0OGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension6VoicesV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Voices",
+              "printedName": "Dug_WatchKit_Extension.Voices",
+              "usr": "s:22Dug_WatchKit_Extension6VoicesV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension6VoicesVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension6VoicesVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension6VoicesV",
+      "mangledName": "$s22Dug_WatchKit_Extension6VoicesV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Voices_Previews",
+      "printedName": "Voices_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension15Voices_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s22Dug_WatchKit_Extension15Voices_PreviewsV8previewsQrvpZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension15Voices_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s22Dug_WatchKit_Extension15Voices_PreviewsV8previewsQrvgZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Voices_Previews",
+              "printedName": "Dug_WatchKit_Extension.Voices_Previews",
+              "usr": "s:22Dug_WatchKit_Extension15Voices_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension15Voices_PreviewsVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension15Voices_PreviewsVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension15Voices_PreviewsV",
+      "mangledName": "$s22Dug_WatchKit_Extension15Voices_PreviewsV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "ClockKit",
+      "printedName": "ClockKit",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ComplicationController",
+      "printedName": "ComplicationController",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "getComplicationDescriptors",
+          "printedName": "getComplicationDescriptors(handler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "([ClockKit.CLKComplicationDescriptor]) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[ClockKit.CLKComplicationDescriptor]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CLKComplicationDescriptor",
+                      "printedName": "ClockKit.CLKComplicationDescriptor",
+                      "usr": "c:objc(cs)CLKComplicationDescriptor"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)getComplicationDescriptorsWithHandler:",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC03getE11Descriptors7handleryySaySo25CLKComplicationDescriptorCGc_tF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "isOpen": true,
+          "objc_name": "getComplicationDescriptorsWithHandler:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handleSharedComplicationDescriptors",
+          "printedName": "handleSharedComplicationDescriptors(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[ClockKit.CLKComplicationDescriptor]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CLKComplicationDescriptor",
+                  "printedName": "ClockKit.CLKComplicationDescriptor",
+                  "usr": "c:objc(cs)CLKComplicationDescriptor"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)handleSharedComplicationDescriptors:",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC012handleSharedE11DescriptorsyySaySo25CLKComplicationDescriptorCGF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "isOpen": true,
+          "objc_name": "handleSharedComplicationDescriptors:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getTimelineEndDate",
+          "printedName": "getTimelineEndDate(for:withHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CLKComplication",
+              "printedName": "ClockKit.CLKComplication",
+              "usr": "c:objc(cs)CLKComplication"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Foundation.Date?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)getTimelineEndDateForComplication:withHandler:",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC18getTimelineEndDate3for11withHandlerySo15CLKComplicationC_y10Foundation0J0VSgctF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "isOpen": true,
+          "objc_name": "getTimelineEndDateForComplication:withHandler:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getPrivacyBehavior",
+          "printedName": "getPrivacyBehavior(for:withHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CLKComplication",
+              "printedName": "ClockKit.CLKComplication",
+              "usr": "c:objc(cs)CLKComplication"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(ClockKit.CLKComplicationPrivacyBehavior) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CLKComplicationPrivacyBehavior",
+                  "printedName": "ClockKit.CLKComplicationPrivacyBehavior",
+                  "usr": "c:@E@CLKComplicationPrivacyBehavior"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)getPrivacyBehaviorForComplication:withHandler:",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC18getPrivacyBehavior3for11withHandlerySo15CLKComplicationC_ySo0mhI0VctF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "isOpen": true,
+          "objc_name": "getPrivacyBehaviorForComplication:withHandler:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getCurrentTimelineEntry",
+          "printedName": "getCurrentTimelineEntry(for:withHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CLKComplication",
+              "printedName": "ClockKit.CLKComplication",
+              "usr": "c:objc(cs)CLKComplication"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(ClockKit.CLKComplicationTimelineEntry?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "ClockKit.CLKComplicationTimelineEntry?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CLKComplicationTimelineEntry",
+                      "printedName": "ClockKit.CLKComplicationTimelineEntry",
+                      "usr": "c:objc(cs)CLKComplicationTimelineEntry"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)getCurrentTimelineEntryForComplication:withHandler:",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC23getCurrentTimelineEntry3for11withHandlerySo15CLKComplicationC_ySo0niJ0CSgctF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "isOpen": true,
+          "objc_name": "getCurrentTimelineEntryForComplication:withHandler:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getTimelineEntries",
+          "printedName": "getTimelineEntries(for:after:limit:withHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CLKComplication",
+              "printedName": "ClockKit.CLKComplication",
+              "usr": "c:objc(cs)CLKComplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "([ClockKit.CLKComplicationTimelineEntry]?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[ClockKit.CLKComplicationTimelineEntry]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[ClockKit.CLKComplicationTimelineEntry]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CLKComplicationTimelineEntry",
+                          "printedName": "ClockKit.CLKComplicationTimelineEntry",
+                          "usr": "c:objc(cs)CLKComplicationTimelineEntry"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)getTimelineEntriesForComplication:afterDate:limit:withHandler:",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC18getTimelineEntries3for5after5limit11withHandlerySo15CLKComplicationC_10Foundation4DateVSiySaySo0oH5EntryCGSgctF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "isOpen": true,
+          "objc_name": "getTimelineEntriesForComplication:afterDate:limit:withHandler:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getLocalizableSampleTemplate",
+          "printedName": "getLocalizableSampleTemplate(for:withHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CLKComplication",
+              "printedName": "ClockKit.CLKComplication",
+              "usr": "c:objc(cs)CLKComplication"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(ClockKit.CLKComplicationTemplate?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "ClockKit.CLKComplicationTemplate?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CLKComplicationTemplate",
+                      "printedName": "ClockKit.CLKComplicationTemplate",
+                      "usr": "c:objc(cs)CLKComplicationTemplate"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)getLocalizableSampleTemplateForComplication:withHandler:",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC28getLocalizableSampleTemplate3for11withHandlerySo15CLKComplicationC_ySo0nJ0CSgctF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "isOpen": true,
+          "objc_name": "getLocalizableSampleTemplateForComplication:withHandler:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ComplicationController",
+              "printedName": "Dug_WatchKit_Extension.ComplicationController",
+              "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController(im)init",
+          "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerCACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Dug_WatchKit_Extension@objc(cs)ComplicationController",
+      "mangledName": "$s22Dug_WatchKit_Extension22ComplicationControllerC",
+      "moduleName": "Dug_WatchKit_Extension",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension11ContentViewV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension11ContentViewV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension11ContentViewV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension11ContentViewV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "Dug_WatchKit_Extension.ContentView",
+              "usr": "s:22Dug_WatchKit_Extension11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension11ContentViewVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension11ContentViewVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension11ContentViewV",
+      "mangledName": "$s22Dug_WatchKit_Extension11ContentViewV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension20ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s22Dug_WatchKit_Extension20ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension20ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s22Dug_WatchKit_Extension20ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "Dug_WatchKit_Extension.ContentView_Previews",
+              "usr": "s:22Dug_WatchKit_Extension20ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension20ContentView_PreviewsVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension20ContentView_PreviewsVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension20ContentView_PreviewsV",
+      "mangledName": "$s22Dug_WatchKit_Extension20ContentView_PreviewsV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DugApp",
+      "printedName": "DugApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension0A3AppV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension0A3AppV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension0A3AppV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension0A3AppV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DugApp",
+              "printedName": "Dug_WatchKit_Extension.DugApp",
+              "usr": "s:22Dug_WatchKit_Extension0A3AppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension0A3AppVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension0A3AppVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:22Dug_WatchKit_Extension0A3AppV5$mainyyFZ",
+          "mangledName": "$s22Dug_WatchKit_Extension0A3AppV5$mainyyFZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension0A3AppV",
+      "mangledName": "$s22Dug_WatchKit_Extension0A3AppV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppTabNavigation",
+      "printedName": "AppTabNavigation",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension16AppTabNavigationV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension16AppTabNavigationV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension16AppTabNavigationV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension16AppTabNavigationV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppTabNavigation",
+              "printedName": "Dug_WatchKit_Extension.AppTabNavigation",
+              "usr": "s:22Dug_WatchKit_Extension16AppTabNavigationV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension16AppTabNavigationVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension16AppTabNavigationVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension16AppTabNavigationV",
+      "mangledName": "$s22Dug_WatchKit_Extension16AppTabNavigationV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppTabNavigation_Previews",
+      "printedName": "AppTabNavigation_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension25AppTabNavigation_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s22Dug_WatchKit_Extension25AppTabNavigation_PreviewsV8previewsQrvpZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension25AppTabNavigation_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s22Dug_WatchKit_Extension25AppTabNavigation_PreviewsV8previewsQrvgZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppTabNavigation_Previews",
+              "printedName": "Dug_WatchKit_Extension.AppTabNavigation_Previews",
+              "usr": "s:22Dug_WatchKit_Extension25AppTabNavigation_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension25AppTabNavigation_PreviewsVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension25AppTabNavigation_PreviewsVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension25AppTabNavigation_PreviewsV",
+      "mangledName": "$s22Dug_WatchKit_Extension25AppTabNavigation_PreviewsV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BubbleBackground",
+      "printedName": "BubbleBackground",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension16BubbleBackgroundV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension16BubbleBackgroundV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension16BubbleBackgroundV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension16BubbleBackgroundV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BubbleBackground",
+              "printedName": "Dug_WatchKit_Extension.BubbleBackground",
+              "usr": "s:22Dug_WatchKit_Extension16BubbleBackgroundV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension16BubbleBackgroundVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension16BubbleBackgroundVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension16BubbleBackgroundV",
+      "mangledName": "$s22Dug_WatchKit_Extension16BubbleBackgroundV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BubbleBackground_Previews",
+      "printedName": "BubbleBackground_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension25BubbleBackground_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s22Dug_WatchKit_Extension25BubbleBackground_PreviewsV8previewsQrvpZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension25BubbleBackground_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s22Dug_WatchKit_Extension25BubbleBackground_PreviewsV8previewsQrvgZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BubbleBackground_Previews",
+              "printedName": "Dug_WatchKit_Extension.BubbleBackground_Previews",
+              "usr": "s:22Dug_WatchKit_Extension25BubbleBackground_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension25BubbleBackground_PreviewsVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension25BubbleBackground_PreviewsVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension25BubbleBackground_PreviewsV",
+      "mangledName": "$s22Dug_WatchKit_Extension25BubbleBackground_PreviewsV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeScreen",
+      "printedName": "HomeScreen",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_signedIn",
+          "printedName": "_signedIn",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10HomeScreenV9_signedIn33_28E7D002BF990A357C09A5FBAA9A2E10LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10HomeScreenV9_signedIn33_28E7D002BF990A357C09A5FBAA9A2E10LL7SwiftUI5StateVySbGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "signIn",
+          "printedName": "signIn()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:22Dug_WatchKit_Extension10HomeScreenV6signInyyF",
+          "mangledName": "$s22Dug_WatchKit_Extension10HomeScreenV6signInyyF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension10HomeScreenV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension10HomeScreenV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension10HomeScreenV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension10HomeScreenV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeScreen",
+              "printedName": "Dug_WatchKit_Extension.HomeScreen",
+              "usr": "s:22Dug_WatchKit_Extension10HomeScreenV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension10HomeScreenVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension10HomeScreenVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension10HomeScreenV",
+      "mangledName": "$s22Dug_WatchKit_Extension10HomeScreenV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeScreen_Previews",
+      "printedName": "HomeScreen_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension19HomeScreen_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s22Dug_WatchKit_Extension19HomeScreen_PreviewsV8previewsQrvpZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension19HomeScreen_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s22Dug_WatchKit_Extension19HomeScreen_PreviewsV8previewsQrvgZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeScreen_Previews",
+              "printedName": "Dug_WatchKit_Extension.HomeScreen_Previews",
+              "usr": "s:22Dug_WatchKit_Extension19HomeScreen_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension19HomeScreen_PreviewsVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension19HomeScreen_PreviewsVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension19HomeScreen_PreviewsV",
+      "mangledName": "$s22Dug_WatchKit_Extension19HomeScreen_PreviewsV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "StartMode",
+      "printedName": "StartMode",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_settings",
+          "printedName": "_settings",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension9StartModeV9_settings33_8B62011D76D71E805406059095BE8AE3LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension9StartModeV9_settings33_8B62011D76D71E805406059095BE8AE3LL7SwiftUI5StateVySbGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_speech",
+          "printedName": "_speech",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension9StartModeV7_speech33_8B62011D76D71E805406059095BE8AE3LL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s22Dug_WatchKit_Extension9StartModeV7_speech33_8B62011D76D71E805406059095BE8AE3LL7SwiftUI5StateVySSGvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "showSettings",
+          "printedName": "showSettings()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:22Dug_WatchKit_Extension9StartModeV12showSettingsyyF",
+          "mangledName": "$s22Dug_WatchKit_Extension9StartModeV12showSettingsyyF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension9StartModeV4bodyQrvp",
+          "mangledName": "$s22Dug_WatchKit_Extension9StartModeV4bodyQrvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension9StartModeV4bodyQrvg",
+              "mangledName": "$s22Dug_WatchKit_Extension9StartModeV4bodyQrvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "StartMode",
+              "printedName": "Dug_WatchKit_Extension.StartMode",
+              "usr": "s:22Dug_WatchKit_Extension9StartModeV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension9StartModeVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension9StartModeVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension9StartModeV",
+      "mangledName": "$s22Dug_WatchKit_Extension9StartModeV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Speech",
+      "printedName": "Speech",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "value",
+          "printedName": "value",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension6SpeechV5valueSSvp",
+          "mangledName": "$s22Dug_WatchKit_Extension6SpeechV5valueSSvp",
+          "moduleName": "Dug_WatchKit_Extension",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension6SpeechV5valueSSvg",
+              "mangledName": "$s22Dug_WatchKit_Extension6SpeechV5valueSSvg",
+              "moduleName": "Dug_WatchKit_Extension",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Speech",
+              "printedName": "Dug_WatchKit_Extension.Speech",
+              "usr": "s:22Dug_WatchKit_Extension6SpeechV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension6SpeechV5valueACSS_tcfc",
+          "mangledName": "$s22Dug_WatchKit_Extension6SpeechV5valueACSS_tcfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Speech",
+              "printedName": "Dug_WatchKit_Extension.Speech",
+              "usr": "s:22Dug_WatchKit_Extension6SpeechV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension6SpeechV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s22Dug_WatchKit_Extension6SpeechV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:22Dug_WatchKit_Extension6SpeechV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s22Dug_WatchKit_Extension6SpeechV6encode2toys7Encoder_p_tKF",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension6SpeechV",
+      "mangledName": "$s22Dug_WatchKit_Extension6SpeechV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "StartMode_Previews",
+      "printedName": "StartMode_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Dug_WatchKit_Extension18StartMode_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s22Dug_WatchKit_Extension18StartMode_PreviewsV8previewsQrvpZ",
+          "moduleName": "Dug_WatchKit_Extension",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Dug_WatchKit_Extension18StartMode_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s22Dug_WatchKit_Extension18StartMode_PreviewsV8previewsQrvgZ",
+              "moduleName": "Dug_WatchKit_Extension",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "StartMode_Previews",
+              "printedName": "Dug_WatchKit_Extension.StartMode_Previews",
+              "usr": "s:22Dug_WatchKit_Extension18StartMode_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Dug_WatchKit_Extension18StartMode_PreviewsVACycfc",
+          "mangledName": "$s22Dug_WatchKit_Extension18StartMode_PreviewsVACycfc",
+          "moduleName": "Dug_WatchKit_Extension",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:22Dug_WatchKit_Extension18StartMode_PreviewsV",
+      "mangledName": "$s22Dug_WatchKit_Extension18StartMode_PreviewsV",
+      "moduleName": "Dug_WatchKit_Extension",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

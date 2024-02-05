@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb815691885690cfbdbd6fcfdc1c83e167932046ab"
+    }
+  ],
+  "containerPath" : "/Users/ivorytang/Desktop/Dug/Dug.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/Build/Products",
+      "derivedDataPath" : "/Users/ivorytang/Desktop/Dug/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,20 @@
+{
+  "source": "/Users/ivorytang/Desktop/Dug/Dug WatchKit Extension/Voices.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Voice"
+      },
+      {
+        "comment": "",
+        "key": "Personality"
+      },
+      {
+        "comment": "",
+        "key": "Activate"
+      }
+    ]
+  },
+  "version": 1
+}

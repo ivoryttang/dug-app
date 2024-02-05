@@ -1,0 +1,27 @@
+Target dependency graph (16 targets)
+Dug in Dug, no dependencies
+Dug in Dug, no dependencies
+DugTests in Dug, depends on:
+Dug in Dug (explicit)
+DugTests in Dug, depends on:
+Dug in Dug (explicit)
+DugTests in Dug, no dependencies
+DugUITests in Dug, depends on:
+Dug in Dug (explicit)
+DugUITests in Dug, depends on:
+Dug in Dug (explicit)
+DugUITests in Dug, no dependencies
+Dug WatchKit Extension in Dug, no dependencies
+Dug WatchKit Extension in Dug, no dependencies
+Dug WatchKit AppTests in Dug, depends on:
+Dug WatchKit Extension in Dug (explicit)
+Dug WatchKit AppTests in Dug, depends on:
+Dug WatchKit Extension in Dug (explicit)
+Dug WatchKit App in Dug, depends on:
+Dug WatchKit Extension in Dug (explicit)
+Dug WatchKit AppUITests in Dug, depends on:
+Dug WatchKit App in Dug (explicit)
+Dug WatchKit App in Dug, depends on:
+Dug WatchKit Extension in Dug (explicit)
+Dug WatchKit AppUITests in Dug, depends on:
+Dug WatchKit App in Dug (explicit)

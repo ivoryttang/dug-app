@@ -1,0 +1,76 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb815691886e38bc319e2aa96350de4c066e960fac"
+    },
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb8156918813c3cd088619a4768cee0758d2990cbf"
+    },
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb81569188bec8100b3001eeefc0f59ab706a5eea3"
+    },
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb815691885690cfbdbd6fcfdc1c83e167932046ab"
+    },
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb815691884a409c7dd43a5b3cf409337b7ff3d247"
+    },
+    {
+      "guid" : "d13e4bd3a6f0d163f261f3fb815691884ad1dbee92e69aca3fc394f5a7efae66"
+    }
+  ],
+  "containerPath" : "/Users/ivorytang/Desktop/Dug/Dug.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/Build/Products",
+      "derivedDataPath" : "/Users/ivorytang/Desktop/Dug/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/ivorytang/Desktop/Dug/DerivedData/Dug/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

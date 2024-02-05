@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>4829EA09-4F20-4D33-9D17-8866C0803856</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4829EA09-4F20-4D33-9D17-8866C0803856.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Dug project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Dug</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Dug</string>
+			<key>timeStartedRecording</key>
+			<real>728805696.57414997</real>
+			<key>timeStoppedRecording</key>
+			<real>728805699.53143895</real>
+			<key>title</key>
+			<string>Build Dug</string>
+			<key>uniqueIdentifier</key>
+			<string>4829EA09-4F20-4D33-9D17-8866C0803856</string>
+		</dict>
+		<key>6282398F-8033-47E4-9713-301580BD8E14</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6282398F-8033-47E4-9713-301580BD8E14.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Dug project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Dug WatchKit App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Dug WatchKit App</string>
+			<key>timeStartedRecording</key>
+			<real>728805867.37480295</real>
+			<key>timeStoppedRecording</key>
+			<real>728805870.29037595</real>
+			<key>title</key>
+			<string>Build for Previews Dug WatchKit App</string>
+			<key>uniqueIdentifier</key>
+			<string>6282398F-8033-47E4-9713-301580BD8E14</string>
+		</dict>
+		<key>E53AC194-3E78-486B-BCF8-97AF0763EF80</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E53AC194-3E78-486B-BCF8-97AF0763EF80.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Dug project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Dug WatchKit App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Dug WatchKit App</string>
+			<key>timeStartedRecording</key>
+			<real>728805873.81751096</real>
+			<key>timeStoppedRecording</key>
+			<real>728805874.593045</real>
+			<key>title</key>
+			<string>Build for Previews Dug WatchKit App</string>
+			<key>uniqueIdentifier</key>
+			<string>E53AC194-3E78-486B-BCF8-97AF0763EF80</string>
+		</dict>
+		<key>EDCE5C89-EC06-4AFE-855C-B098565ED211</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EDCE5C89-EC06-4AFE-855C-B098565ED211.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Dug project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Dug WatchKit App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Dug WatchKit App</string>
+			<key>timeStartedRecording</key>
+			<real>728805906.36802995</real>
+			<key>timeStoppedRecording</key>
+			<real>728805906.86554396</real>
+			<key>title</key>
+			<string>Build for Previews Dug WatchKit App</string>
+			<key>uniqueIdentifier</key>
+			<string>EDCE5C89-EC06-4AFE-855C-B098565ED211</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

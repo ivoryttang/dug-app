@@ -1,0 +1,20 @@
+PODS:
+  - ios-voice-processor (1.1.0)
+  - Porcupine-iOS (3.0.1):
+    - ios-voice-processor (~> 1.1.0)
+
+DEPENDENCIES:
+  - Porcupine-iOS
+
+SPEC REPOS:
+  trunk:
+    - ios-voice-processor
+    - Porcupine-iOS
+
+SPEC CHECKSUMS:
+  ios-voice-processor: 8e32d7f980a06d392d128ef1cd19cf6ddcaca3c1
+  Porcupine-iOS: 6d69509fa587f3ac0be1adfefb48e0c6ce029fff
+
+PODFILE CHECKSUM: 22592bd03c53bac749136971022d89f69b7e15cd
+
+COCOAPODS: 1.12.1
