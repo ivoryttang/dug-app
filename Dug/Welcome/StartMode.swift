@@ -9,20 +9,28 @@ import SwiftUI
 import Foundation
 import Porcupine
 
-let keywordPath = Bundle.main.path(forResource: "Hey Dug", ofType: "ppn")
+//let keywordPath = Bundle.main.path(forResource: "Hey Dug", ofType: "ppn")
+
+let wakeWordCallback: ((Int32) -> Void) = { keywordIndex in
+                if keywordIndex == 0 {
+                    // porcupine detected
+                } else if keywordIndex == 1 {
+                    // bumblebee detected
+                }
+            }
 
 func wakeWordDetection() {
     do {
         let porcupineManager = try PorcupineManager(
             accessKey: "oCVygcpj6QFlpPyZuzK9llsUoMfPXzXaL7r5Tzlfk2RP7l2VUaA3+A==",
-            keywordPath: keywordPath,
+            keywords: [Porcupine.BuiltInKeyword.porcupine, Porcupine.BuiltInKeyword.bumblebee],
             onDetection: wakeWordCallback)
     } catch { }
 }
 
 func createBody(data: Data) -> Data {
     let formData = NSMutableData()
-    let boundary = "Boundary-\(UUID().uuidString)"
+    _ = "Boundary-\(UUID().uuidString)"
     
     // Append audio data
     formData.append(data)
@@ -121,9 +129,9 @@ struct StartMode: View {
     var body: some View {
         ZStack {
             Circle().foregroundColor(Color("bubbles-background"))
-            Button(action:onSpeechStart){
-                Text("Start Speaking")
-            }
+//            Button(action:onSpeechStart){
+//                Text("Start Speaking")
+//            }
         }
         
     }
