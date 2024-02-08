@@ -10,6 +10,7 @@
 		1B6EAD129B644FA067123EAA /* Pods_Dug_WatchKit_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA643523A5481DD647B26B /* Pods_Dug_WatchKit_AppTests.framework */; };
 		61196C9D00499F8559175466 /* Pods_Dug_Dug_WatchKit_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3167EA16904CE3C13A53DFAC /* Pods_Dug_Dug_WatchKit_AppUITests.framework */; };
 		933598E14F26DD090A18C766 /* Pods_DugTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1346F57FB49E89CE3418138B /* Pods_DugTests.framework */; };
+		D311E3AE2B75986B00042D18 /* SystemPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D311E3AD2B75986B00042D18 /* SystemPackage */; };
 		D3BDDFF12B6F205100A2B206 /* DugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDFF02B6F205100A2B206 /* DugApp.swift */; };
 		D3BDDFF32B6F205100A2B206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDFF22B6F205100A2B206 /* ContentView.swift */; };
 		D3BDDFF52B6F205200A2B206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDDFF42B6F205200A2B206 /* Assets.xcassets */; };
@@ -28,9 +29,7 @@
 		D3BDE05E2B6F210000A2B206 /* BubbleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE05D2B6F210000A2B206 /* BubbleBackground.swift */; };
 		D3BDE0602B6F21AC00A2B206 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE05F2B6F21AC00A2B206 /* BubbleView.swift */; };
 		D3BDE0672B6F313D00A2B206 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0662B6F313D00A2B206 /* HomeScreen.swift */; };
-		D3BDE06A2B6F33E500A2B206 /* Voices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0692B6F33E500A2B206 /* Voices.swift */; };
-		D3BDE06C2B6F36B100A2B206 /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE06B2B6F36B100A2B206 /* AppTabNavigation.swift */; };
-		D3BDE0792B6F647600A2B206 /* StartMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0782B6F647600A2B206 /* StartMode.swift */; };
+		D3BDE0792B6F647600A2B206 /* OnboardingGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0782B6F647600A2B206 /* OnboardingGender.swift */; };
 		D3BDE07A2B6FFD0300A2B206 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE06E2B6F36E800A2B206 /* HomeScreen.swift */; };
 		D3BDE07B2B6FFD0300A2B206 /* Voices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0742B6F375A00A2B206 /* Voices.swift */; };
 		D3BDE07C2B6FFD0300A2B206 /* StartMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0762B6F63BD00A2B206 /* StartMode.swift */; };
@@ -40,6 +39,28 @@
 		D3BDE0802B6FFD0300A2B206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0212B6F205300A2B206 /* ContentView.swift */; };
 		D3BDE0812B6FFD0300A2B206 /* BubbleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0702B6F370C00A2B206 /* BubbleBackground.swift */; };
 		D3BDE0822B6FFD0300A2B206 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE0252B6F205300A2B206 /* ComplicationController.swift */; };
+		D3C87F5B2B7430AA00660592 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F5A2B7430AA00660592 /* Login.swift */; };
+		D3C87F5D2B74321600660592 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F5C2B74321600660592 /* SignUp.swift */; };
+		D3C87F602B743C5B00660592 /* OnboardingName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F5F2B743C5B00660592 /* OnboardingName.swift */; };
+		D3C87F622B743D4200660592 /* OnboardingAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F612B743D4200660592 /* OnboardingAge.swift */; };
+		D3C87F642B743F2D00660592 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F632B743F2D00660592 /* OnboardingController.swift */; };
+		D3C87F662B74406800660592 /* OnboardingCharacteristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F652B74406800660592 /* OnboardingCharacteristics.swift */; };
+		D3C87F682B74428800660592 /* OnboardingBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F672B74428800660592 /* OnboardingBreed.swift */; };
+		D3C87F6B2B744DAB00660592 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F6A2B744DAB00660592 /* AppNavigationController.swift */; };
+		D3C87F6D2B744E2600660592 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F6C2B744E2600660592 /* Settings.swift */; };
+		D3C87F6F2B744E3600660592 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F6E2B744E3600660592 /* Discover.swift */; };
+		D3C87F712B744E3F00660592 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F702B744E3F00660592 /* Maps.swift */; };
+		D3C87F752B744E5200660592 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F742B744E5200660592 /* Profile.swift */; };
+		D3C87F772B74A7DB00660592 /* Voices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F762B74A7DB00660592 /* Voices.swift */; };
+		D3C87F7A2B74AC3700660592 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F792B74AC3700660592 /* Character.swift */; };
+		D3C87F7C2B753E9600660592 /* paula.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F7B2B753E9600660592 /* paula.mp3 */; };
+		D3C87F7E2B7545D700660592 /* mark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F7D2B7545D700660592 /* mark.mp3 */; };
+		D3C87F842B754FE400660592 /* joseph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F7F2B754FE300660592 /* joseph.mp3 */; };
+		D3C87F852B754FE400660592 /* miriam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F802B754FE400660592 /* miriam.mp3 */; };
+		D3C87F862B754FE400660592 /* jennifer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F812B754FE400660592 /* jennifer.mp3 */; };
+		D3C87F872B754FE400660592 /* james.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F822B754FE400660592 /* james.mp3 */; };
+		D3C87F882B754FE400660592 /* natasia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F832B754FE400660592 /* natasia.mp3 */; };
+		D3C87F8A2B75514D00660592 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F892B75514D00660592 /* Skills.swift */; };
 		D6E0CF3F8DB712E158175479 /* Pods_Dug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F307D1A7E9E47761332DC4 /* Pods_Dug.framework */; };
 		F7BC703F26AA9C7765096B64 /* Pods_Dug_DugUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EB0E6C222838D79DBD1B1F /* Pods_Dug_DugUITests.framework */; };
 /* End PBXBuildFile section */
@@ -158,14 +179,36 @@
 		D3BDE05F2B6F21AC00A2B206 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 		D3BDE0642B6F312300A2B206 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
 		D3BDE0662B6F313D00A2B206 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		D3BDE0692B6F33E500A2B206 /* Voices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Voices.swift; path = Dug/Voices.swift; sourceTree = SOURCE_ROOT; };
-		D3BDE06B2B6F36B100A2B206 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
 		D3BDE06E2B6F36E800A2B206 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		D3BDE0702B6F370C00A2B206 /* BubbleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleBackground.swift; sourceTree = "<group>"; };
 		D3BDE0722B6F371800A2B206 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 		D3BDE0742B6F375A00A2B206 /* Voices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voices.swift; sourceTree = "<group>"; };
 		D3BDE0762B6F63BD00A2B206 /* StartMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMode.swift; sourceTree = "<group>"; };
-		D3BDE0782B6F647600A2B206 /* StartMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMode.swift; sourceTree = "<group>"; };
+		D3BDE0782B6F647600A2B206 /* OnboardingGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingGender.swift; sourceTree = "<group>"; };
+		D3C87F5A2B7430AA00660592 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D3C87F5C2B74321600660592 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		D3C87F5F2B743C5B00660592 /* OnboardingName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingName.swift; sourceTree = "<group>"; };
+		D3C87F612B743D4200660592 /* OnboardingAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingAge.swift; sourceTree = "<group>"; };
+		D3C87F632B743F2D00660592 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		D3C87F652B74406800660592 /* OnboardingCharacteristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCharacteristics.swift; sourceTree = "<group>"; };
+		D3C87F672B74428800660592 /* OnboardingBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingBreed.swift; sourceTree = "<group>"; };
+		D3C87F6A2B744DAB00660592 /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		D3C87F6C2B744E2600660592 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D3C87F6E2B744E3600660592 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		D3C87F702B744E3F00660592 /* Maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		D3C87F742B744E5200660592 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D3C87F762B74A7DB00660592 /* Voices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voices.swift; sourceTree = "<group>"; };
+		D3C87F792B74AC3700660592 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D3C87F7B2B753E9600660592 /* paula.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paula.mp3; sourceTree = "<group>"; };
+		D3C87F7D2B7545D700660592 /* mark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mark.mp3; sourceTree = "<group>"; };
+		D3C87F7F2B754FE300660592 /* joseph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = joseph.mp3; sourceTree = "<group>"; };
+		D3C87F802B754FE400660592 /* miriam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = miriam.mp3; sourceTree = "<group>"; };
+		D3C87F812B754FE400660592 /* jennifer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jennifer.mp3; sourceTree = "<group>"; };
+		D3C87F822B754FE400660592 /* james.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = james.mp3; sourceTree = "<group>"; };
+		D3C87F832B754FE400660592 /* natasia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natasia.mp3; sourceTree = "<group>"; };
+		D3C87F892B75514D00660592 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
+		D3F253AC2B758DAE0087BFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3FCF7C82B75970700FFCC53 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D311E3AE2B75986B00042D18 /* SystemPackage in Frameworks */,
 				D6E0CF3F8DB712E158175479 /* Pods_Dug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +325,18 @@
 		D3BDDFEF2B6F205100A2B206 /* Dug */ = {
 			isa = PBXGroup;
 			children = (
+				D3F253AC2B758DAE0087BFC1 /* Info.plist */,
+				D3C87F8C2B75890A00660592 /* voices */,
+				D3C87F782B74A8DE00660592 /* Customizations */,
+				D3C87F692B74499F00660592 /* MainApp */,
+				D3C87F5E2B7437E700660592 /* Onboarding */,
 				D3BDE0682B6F325200A2B206 /* Welcome */,
 				D3BDE0632B6F2E2600A2B206 /* Resources */,
 				D3BDE05C2B6F20E900A2B206 /* Components */,
 				D3BDDFF02B6F205100A2B206 /* DugApp.swift */,
 				D3BDDFF22B6F205100A2B206 /* ContentView.swift */,
 				D3BDDFF62B6F205200A2B206 /* Preview Content */,
+				D3FCF7C82B75970700FFCC53 /* Package.swift */,
 			);
 			path = Dug;
 			sourceTree = "<group>";
@@ -373,7 +423,6 @@
 			children = (
 				D3BDE05D2B6F210000A2B206 /* BubbleBackground.swift */,
 				D3BDE05F2B6F21AC00A2B206 /* BubbleView.swift */,
-				D3BDE06B2B6F36B100A2B206 /* AppTabNavigation.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -390,10 +439,59 @@
 			isa = PBXGroup;
 			children = (
 				D3BDE0662B6F313D00A2B206 /* HomeScreen.swift */,
-				D3BDE0692B6F33E500A2B206 /* Voices.swift */,
-				D3BDE0782B6F647600A2B206 /* StartMode.swift */,
+				D3C87F5A2B7430AA00660592 /* Login.swift */,
+				D3C87F5C2B74321600660592 /* SignUp.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		D3C87F5E2B7437E700660592 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDE0782B6F647600A2B206 /* OnboardingGender.swift */,
+				D3C87F5F2B743C5B00660592 /* OnboardingName.swift */,
+				D3C87F612B743D4200660592 /* OnboardingAge.swift */,
+				D3C87F632B743F2D00660592 /* OnboardingController.swift */,
+				D3C87F652B74406800660592 /* OnboardingCharacteristics.swift */,
+				D3C87F672B74428800660592 /* OnboardingBreed.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D3C87F692B74499F00660592 /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				D3C87F6A2B744DAB00660592 /* AppNavigationController.swift */,
+				D3C87F6C2B744E2600660592 /* Settings.swift */,
+				D3C87F6E2B744E3600660592 /* Discover.swift */,
+				D3C87F702B744E3F00660592 /* Maps.swift */,
+				D3C87F742B744E5200660592 /* Profile.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		D3C87F782B74A8DE00660592 /* Customizations */ = {
+			isa = PBXGroup;
+			children = (
+				D3C87F762B74A7DB00660592 /* Voices.swift */,
+				D3C87F792B74AC3700660592 /* Character.swift */,
+				D3C87F892B75514D00660592 /* Skills.swift */,
+			);
+			path = Customizations;
+			sourceTree = "<group>";
+		};
+		D3C87F8C2B75890A00660592 /* voices */ = {
+			isa = PBXGroup;
+			children = (
+				D3C87F7B2B753E9600660592 /* paula.mp3 */,
+				D3C87F7D2B7545D700660592 /* mark.mp3 */,
+				D3C87F822B754FE400660592 /* james.mp3 */,
+				D3C87F812B754FE400660592 /* jennifer.mp3 */,
+				D3C87F7F2B754FE300660592 /* joseph.mp3 */,
+				D3C87F802B754FE400660592 /* miriam.mp3 */,
+				D3C87F832B754FE400660592 /* natasia.mp3 */,
+			);
+			path = voices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +514,9 @@
 				D3BDE0142B6F205200A2B206 /* PBXTargetDependency */,
 			);
 			name = Dug;
+			packageProductDependencies = (
+				D311E3AD2B75986B00042D18 /* SystemPackage */,
+			);
 			productName = Dug;
 			productReference = D3BDDFED2B6F205100A2B206 /* Dug.app */;
 			productType = "com.apple.product-type.application";
@@ -578,6 +679,9 @@
 				Base,
 			);
 			mainGroup = D3BDDFE42B6F205100A2B206;
+			packageReferences = (
+				D311E3AC2B75986B00042D18 /* XCRemoteSwiftPackageReference "swift-system" */,
+			);
 			productRefGroup = D3BDDFEE2B6F205100A2B206 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,8 +702,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C87F7C2B753E9600660592 /* paula.mp3 in Resources */,
+				D3C87F852B754FE400660592 /* miriam.mp3 in Resources */,
 				D3BDDFF82B6F205200A2B206 /* Preview Assets.xcassets in Resources */,
+				D3C87F7E2B7545D700660592 /* mark.mp3 in Resources */,
+				D3C87F862B754FE400660592 /* jennifer.mp3 in Resources */,
+				D3C87F842B754FE400660592 /* joseph.mp3 in Resources */,
 				D3BDDFF52B6F205200A2B206 /* Assets.xcassets in Resources */,
+				D3C87F872B754FE400660592 /* james.mp3 in Resources */,
+				D3C87F882B754FE400660592 /* natasia.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,14 +930,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3BDE06C2B6F36B100A2B206 /* AppTabNavigation.swift in Sources */,
-				D3BDE06A2B6F33E500A2B206 /* Voices.swift in Sources */,
+				D3C87F682B74428800660592 /* OnboardingBreed.swift in Sources */,
+				D3C87F622B743D4200660592 /* OnboardingAge.swift in Sources */,
 				D3BDDFF32B6F205100A2B206 /* ContentView.swift in Sources */,
 				D3BDE0602B6F21AC00A2B206 /* BubbleView.swift in Sources */,
+				D3C87F8A2B75514D00660592 /* Skills.swift in Sources */,
+				D3C87F602B743C5B00660592 /* OnboardingName.swift in Sources */,
+				D3C87F642B743F2D00660592 /* OnboardingController.swift in Sources */,
+				D3C87F5D2B74321600660592 /* SignUp.swift in Sources */,
+				D3C87F7A2B74AC3700660592 /* Character.swift in Sources */,
+				D3C87F752B744E5200660592 /* Profile.swift in Sources */,
 				D3BDE0672B6F313D00A2B206 /* HomeScreen.swift in Sources */,
-				D3BDE0792B6F647600A2B206 /* StartMode.swift in Sources */,
+				D3C87F6F2B744E3600660592 /* Discover.swift in Sources */,
+				D3C87F712B744E3F00660592 /* Maps.swift in Sources */,
+				D3C87F6B2B744DAB00660592 /* AppNavigationController.swift in Sources */,
+				D3C87F6D2B744E2600660592 /* Settings.swift in Sources */,
+				D3C87F772B74A7DB00660592 /* Voices.swift in Sources */,
+				D3BDE0792B6F647600A2B206 /* OnboardingGender.swift in Sources */,
+				D3C87F5B2B7430AA00660592 /* Login.swift in Sources */,
 				D3BDDFF12B6F205100A2B206 /* DugApp.swift in Sources */,
 				D3BDE05E2B6F210000A2B206 /* BubbleBackground.swift in Sources */,
+				D3C87F662B74406800660592 /* OnboardingCharacteristics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1032,6 +1156,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dug WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2794DWM3DU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dug WatchKit Extension/Info.plist";
@@ -1063,6 +1188,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dug WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2794DWM3DU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dug WatchKit Extension/Info.plist";
@@ -1094,8 +1220,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2794DWM3DU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Dug_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Dug WatchKit App";
@@ -1104,6 +1232,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1119,8 +1248,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2794DWM3DU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Dug_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Dug WatchKit App";
@@ -1129,6 +1260,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dug.Dug.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1148,14 +1280,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dug/Preview Content\"";
+				DEVELOPMENT_TEAM = 2794DWM3DU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dug/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your app name needs microphone access to work";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "need speech recog";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1179,14 +1315,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dug/Preview Content\"";
+				DEVELOPMENT_TEAM = 2794DWM3DU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dug/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your app name needs microphone access to work";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "need speech recog";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1444,6 +1584,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D311E3AC2B75986B00042D18 /* XCRemoteSwiftPackageReference "swift-system" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-system.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D311E3AD2B75986B00042D18 /* SystemPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D311E3AC2B75986B00042D18 /* XCRemoteSwiftPackageReference "swift-system" */;
+			productName = SystemPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3BDDFE52B6F205100A2B206 /* Project object */;
 }

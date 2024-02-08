@@ -8,23 +8,48 @@
 import SwiftUI
 
 struct HomeScreen: View {
-    @State private var signedIn = false
+    @State private var login = false
+    @State private var signUp = false
     
-    func signIn(){
-        signedIn = true
+    func setSignUp(){
+        signUp = true
+    }
+    func setLogin(){
+        login = true
     }
     
     var body: some View {
-        if signedIn {
-            Voices()
+        if login {
+            Login()
+        } else if signUp {
+            SignUp()
         }else{
             ZStack{
                 BubbleBackground().ignoresSafeArea()
                 VStack(alignment: .center){
-                    Text("Dug").font(.largeTitle).fontWeight(.bold)
-                    Text("Give your furry friend a voice")
-                    Button(action: signIn) {
-                        Text("Sign In")
+                    Text("Hi Dug").font(.largeTitle).fontWeight(.bold).foregroundColor(.white)
+                    Text("Talk to your furry friend").font(.subheadline).foregroundColor(.white).italic()
+                    Image("Logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 200, height: 200)
+                        .cornerRadius(200.0)
+                        .padding()
+                    Button(action: setLogin) {
+                        Text("Login")
+                            .foregroundColor(.white)
+                            .padding()
+                            .frame(maxWidth: .maximum(80, 350))
+                            .background(Color("bubbles-background"))
+                            .cornerRadius(20.0)
+                    }.padding()
+                    Button(action: setSignUp) {
+                        Text("Sign Up")
+                            .foregroundColor(Color("bubbles-background"))
+                            .padding()
+                            .frame(maxWidth: .maximum(80, 350))
+                            .background(Color.white)
+                            .cornerRadius(20.0)
                     }
                 }
             }

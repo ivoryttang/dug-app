@@ -53,7 +53,7 @@ struct Voices: View {
                 }
             }
         } else {
-            StartMode()
+//            StartMode()
         }
         
         
