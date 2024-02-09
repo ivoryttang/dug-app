@@ -5,12 +5,12 @@ let package = Package(
     name: "Vapi",
     platforms: [
         .macOS(.v11),
-        .iOS(.v14),
+        .iOS(.v13),
         .watchOS(.v7),
         .tvOS(.v13)
     ],
     dependencies: [
-        .package(url: "https://github.com/VapiAI/ios", from: "5.6.0"),
+        .package(url: "https://github.com/VapiAI/ios", revision: "main"),
     ],
     targets: [
         .target(
@@ -18,7 +18,6 @@ let package = Package(
             dependencies: [
                 .product(name: "Vapi", package: "ios")
             ]
-        ),
-        // Add testTarget if needed
+        )
     ]
 )

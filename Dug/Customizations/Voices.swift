@@ -79,7 +79,7 @@ struct Voices: View {
         Voice(name:"james",description: "tough guy"),
         Voice(name:"natasia",description: "snarky and mature")
     ]
-    @State private var selectedVoice = ""
+    @AppStorage("selectedVoice") var selectedVoice: String = ""
     
     @State private var playing = ""
         

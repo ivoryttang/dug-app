@@ -1,0 +1,11 @@
+{
+  "object" : {
+    "repositories" : {
+      "https://github.com/VapiAI/ios" : {
+        "repositoryURL" : "https://github.com/VapiAI/ios",
+        "subpath" : "ios-9d9591f1"
+      }
+    }
+  },
+  "version" : 1
+}
