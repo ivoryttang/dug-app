@@ -20,7 +20,27 @@ struct OnboardingBreed: View {
         DogBreed(name: "Golden Retriever", image: "golden_retriever"),
         // Add more dog breeds as needed
     ]
-    @State private var selectedBreed: String?
+    
+    @AppStorage("onboard") var onboard: Bool = true
+    @AppStorage("pet_breed") var pet_breed: String = ""
+    
+    func saveBreed(){
+        Task {
+            do {
+                let currentUser = try await supabase.auth.session.user
+                
+                let result = try await supabase.database
+                    .from("pet_profiles")
+                    .update([
+                        "breed": pet_breed
+                    ])
+                    .eq("owner", value: currentUser.id)
+                    .execute()
+            } catch{
+                debugPrint(error)
+            }
+        }
+    }
     
     var body: some View {
         
@@ -42,7 +62,7 @@ struct OnboardingBreed: View {
                 LazyVStack(spacing: 20) {
                     ForEach(dogBreeds) { breed in
                         Button(action: {
-                                selectedBreed = breed.name
+                                pet_breed = breed.name
                             }) {
                                 VStack {
                                     Image(breed.image)
@@ -54,11 +74,18 @@ struct OnboardingBreed: View {
                                     Text(breed.name)
                                         .font(.subheadline)
                                         .foregroundColor(.white)
-                                }.background(selectedBreed == breed.name ? Color.purple : .clear)
+                                }.background(pet_breed == breed.name ? Color.purple : .clear)
                             }.cornerRadius(10)
                     }
                 }
                 .padding()
+                
+                if !onboard {
+                    Button(action: {saveBreed()}){
+                        Text("Save").foregroundColor(.white)
+                    }
+                }
+            
             }
             .background(Color("bubbles-background"))
     }

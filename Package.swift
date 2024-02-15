@@ -1,4 +1,4 @@
-// swift-tools-version:5.6.0
+// swift-tools-version:5.9
 
 import PackageDescription
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
         .tvOS(.v13)
     ],
     dependencies: [
-        .package(url: "https://github.com/VapiAI/ios", revision: "main"),
+        .package(url: "https://github.com/VapiAI/ios", revision: "85100236f0bfee7e418962c6232c8a585c121bd0"),
     ],
     targets: [
         .target(

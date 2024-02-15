@@ -3,14 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1B6EAD129B644FA067123EAA /* Pods_Dug_WatchKit_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA643523A5481DD647B26B /* Pods_Dug_WatchKit_AppTests.framework */; };
 		61196C9D00499F8559175466 /* Pods_Dug_Dug_WatchKit_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3167EA16904CE3C13A53DFAC /* Pods_Dug_Dug_WatchKit_AppUITests.framework */; };
 		933598E14F26DD090A18C766 /* Pods_DugTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1346F57FB49E89CE3418138B /* Pods_DugTests.framework */; };
-		D311E3AE2B75986B00042D18 /* SystemPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D311E3AD2B75986B00042D18 /* SystemPackage */; };
+		D36045782B7BEAE800F2C5A5 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = D36045772B7BEAE800F2C5A5 /* Auth */; };
+		D360457A2B7BEAE800F2C5A5 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = D36045792B7BEAE800F2C5A5 /* Functions */; };
+		D360457C2B7BEAE800F2C5A5 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = D360457B2B7BEAE800F2C5A5 /* PostgREST */; };
+		D360457E2B7BEAE800F2C5A5 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = D360457D2B7BEAE800F2C5A5 /* Realtime */; };
+		D36045802B7BEAE800F2C5A5 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = D360457F2B7BEAE800F2C5A5 /* Storage */; };
+		D36045822B7BF72800F2C5A5 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36045812B7BF72800F2C5A5 /* Supabase.swift */; };
+		D36045842B7BF82900F2C5A5 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D36045832B7BF82900F2C5A5 /* Supabase */; };
+		D36045862B7BF92800F2C5A5 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36045852B7BF92800F2C5A5 /* AppView.swift */; };
+		D36045882B7D4B3A00F2C5A5 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36045872B7D4B3A00F2C5A5 /* EditProfile.swift */; };
 		D3BDDFF12B6F205100A2B206 /* DugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDFF02B6F205100A2B206 /* DugApp.swift */; };
 		D3BDDFF32B6F205100A2B206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDFF22B6F205100A2B206 /* ContentView.swift */; };
 		D3BDDFF52B6F205200A2B206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDDFF42B6F205200A2B206 /* Assets.xcassets */; };
@@ -61,6 +69,7 @@
 		D3C87F872B754FE400660592 /* james.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F822B754FE400660592 /* james.mp3 */; };
 		D3C87F882B754FE400660592 /* natasia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C87F832B754FE400660592 /* natasia.mp3 */; };
 		D3C87F8A2B75514D00660592 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C87F892B75514D00660592 /* Skills.swift */; };
+		D3F3A7C62B75D8E20003365C /* Vapi in Frameworks */ = {isa = PBXBuildFile; productRef = D3F3A7C52B75D8E20003365C /* Vapi */; };
 		D6E0CF3F8DB712E158175479 /* Pods_Dug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F307D1A7E9E47761332DC4 /* Pods_Dug.framework */; };
 		F7BC703F26AA9C7765096B64 /* Pods_Dug_DugUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EB0E6C222838D79DBD1B1F /* Pods_Dug_DugUITests.framework */; };
 /* End PBXBuildFile section */
@@ -151,6 +160,9 @@
 		90E09DE903A88913F5A360B0 /* Pods-Dug WatchKit AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug WatchKit AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Dug WatchKit AppTests/Pods-Dug WatchKit AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3CE7CC22542217CD3582037 /* Pods-Dug-Dug WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dug-Dug WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Dug-Dug WatchKit AppUITests/Pods-Dug-Dug WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C2046D8F96C8E290B291FEA5 /* Pods-DugTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DugTests.debug.xcconfig"; path = "Target Support Files/Pods-DugTests/Pods-DugTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D36045812B7BF72800F2C5A5 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		D36045852B7BF92800F2C5A5 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		D36045872B7D4B3A00F2C5A5 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
 		D3BDDFED2B6F205100A2B206 /* Dug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BDDFF02B6F205100A2B206 /* DugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DugApp.swift; sourceTree = "<group>"; };
 		D3BDDFF22B6F205100A2B206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -216,8 +228,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D311E3AE2B75986B00042D18 /* SystemPackage in Frameworks */,
+				D3F3A7C62B75D8E20003365C /* Vapi in Frameworks */,
 				D6E0CF3F8DB712E158175479 /* Pods_Dug.framework in Frameworks */,
+				D36045802B7BEAE800F2C5A5 /* Storage in Frameworks */,
+				D360457A2B7BEAE800F2C5A5 /* Functions in Frameworks */,
+				D36045842B7BF82900F2C5A5 /* Supabase in Frameworks */,
+				D360457E2B7BEAE800F2C5A5 /* Realtime in Frameworks */,
+				D36045782B7BEAE800F2C5A5 /* Auth in Frameworks */,
+				D360457C2B7BEAE800F2C5A5 /* PostgREST in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +313,7 @@
 		D3BDDFE42B6F205100A2B206 = {
 			isa = PBXGroup;
 			children = (
+				D3FCF7C82B75970700FFCC53 /* Package.swift */,
 				66344AFF620EECB9154E0EB4 /* Pods */,
 				D3BDDFEF2B6F205100A2B206 /* Dug */,
 				D3BDE0002B6F205200A2B206 /* DugTests */,
@@ -336,7 +355,6 @@
 				D3BDDFF02B6F205100A2B206 /* DugApp.swift */,
 				D3BDDFF22B6F205100A2B206 /* ContentView.swift */,
 				D3BDDFF62B6F205200A2B206 /* Preview Content */,
-				D3FCF7C82B75970700FFCC53 /* Package.swift */,
 			);
 			path = Dug;
 			sourceTree = "<group>";
@@ -441,6 +459,8 @@
 				D3BDE0662B6F313D00A2B206 /* HomeScreen.swift */,
 				D3C87F5A2B7430AA00660592 /* Login.swift */,
 				D3C87F5C2B74321600660592 /* SignUp.swift */,
+				D36045812B7BF72800F2C5A5 /* Supabase.swift */,
+				D36045852B7BF92800F2C5A5 /* AppView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -466,6 +486,7 @@
 				D3C87F6E2B744E3600660592 /* Discover.swift */,
 				D3C87F702B744E3F00660592 /* Maps.swift */,
 				D3C87F742B744E5200660592 /* Profile.swift */,
+				D36045872B7D4B3A00F2C5A5 /* EditProfile.swift */,
 			);
 			path = MainApp;
 			sourceTree = "<group>";
@@ -515,7 +536,13 @@
 			);
 			name = Dug;
 			packageProductDependencies = (
-				D311E3AD2B75986B00042D18 /* SystemPackage */,
+				D3F3A7C52B75D8E20003365C /* Vapi */,
+				D36045772B7BEAE800F2C5A5 /* Auth */,
+				D36045792B7BEAE800F2C5A5 /* Functions */,
+				D360457B2B7BEAE800F2C5A5 /* PostgREST */,
+				D360457D2B7BEAE800F2C5A5 /* Realtime */,
+				D360457F2B7BEAE800F2C5A5 /* Storage */,
+				D36045832B7BF82900F2C5A5 /* Supabase */,
 			);
 			productName = Dug;
 			productReference = D3BDDFED2B6F205100A2B206 /* Dug.app */;
@@ -671,7 +698,7 @@
 				};
 			};
 			buildConfigurationList = D3BDDFE82B6F205100A2B206 /* Build configuration list for PBXProject "Dug" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -680,7 +707,8 @@
 			);
 			mainGroup = D3BDDFE42B6F205100A2B206;
 			packageReferences = (
-				D311E3AC2B75986B00042D18 /* XCRemoteSwiftPackageReference "swift-system" */,
+				D3F3A7C42B75D8E20003365C /* XCRemoteSwiftPackageReference "ios" */,
+				D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */,
 			);
 			productRefGroup = D3BDDFEE2B6F205100A2B206 /* Products */;
 			projectDirPath = "";
@@ -934,11 +962,14 @@
 				D3C87F622B743D4200660592 /* OnboardingAge.swift in Sources */,
 				D3BDDFF32B6F205100A2B206 /* ContentView.swift in Sources */,
 				D3BDE0602B6F21AC00A2B206 /* BubbleView.swift in Sources */,
+				D36045862B7BF92800F2C5A5 /* AppView.swift in Sources */,
 				D3C87F8A2B75514D00660592 /* Skills.swift in Sources */,
 				D3C87F602B743C5B00660592 /* OnboardingName.swift in Sources */,
 				D3C87F642B743F2D00660592 /* OnboardingController.swift in Sources */,
+				D36045822B7BF72800F2C5A5 /* Supabase.swift in Sources */,
 				D3C87F5D2B74321600660592 /* SignUp.swift in Sources */,
 				D3C87F7A2B74AC3700660592 /* Character.swift in Sources */,
+				D36045882B7D4B3A00F2C5A5 /* EditProfile.swift in Sources */,
 				D3C87F752B744E5200660592 /* Profile.swift in Sources */,
 				D3BDE0672B6F313D00A2B206 /* HomeScreen.swift in Sources */,
 				D3C87F6F2B744E3600660592 /* Discover.swift in Sources */,
@@ -1095,6 +1126,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1146,6 +1178,7 @@
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1291,7 +1324,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1326,7 +1359,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1586,21 +1619,59 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D311E3AC2B75986B00042D18 /* XCRemoteSwiftPackageReference "swift-system" */ = {
+		D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-system.git";
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
+			};
+		};
+		D3F3A7C42B75D8E20003365C /* XCRemoteSwiftPackageReference "ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VapiAI/ios";
+			requirement = {
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D311E3AD2B75986B00042D18 /* SystemPackage */ = {
+		D36045772B7BEAE800F2C5A5 /* Auth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D311E3AC2B75986B00042D18 /* XCRemoteSwiftPackageReference "swift-system" */;
-			productName = SystemPackage;
+			package = D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		D36045792B7BEAE800F2C5A5 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		D360457B2B7BEAE800F2C5A5 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		D360457D2B7BEAE800F2C5A5 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		D360457F2B7BEAE800F2C5A5 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		D36045832B7BF82900F2C5A5 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D36045762B7BEAE800F2C5A5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		D3F3A7C52B75D8E20003365C /* Vapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3F3A7C42B75D8E20003365C /* XCRemoteSwiftPackageReference "ios" */;
+			productName = Vapi;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

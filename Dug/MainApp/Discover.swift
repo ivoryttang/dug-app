@@ -16,7 +16,7 @@ struct Discover: View {
     @State private var isBluetoothOn = false
     let microphoneAuthorizationStatus = AVCaptureDevice.authorizationStatus(for: .audio)
     @State private var isMicConnected = false
-    @State private var isDeviceConnected = false
+    @State private var isDeviceConnected = true
     
     let vapi = Vapi(
             publicKey: "f8f37a2e-4c9f-4b25-a1a5-f61575406a40"
@@ -90,9 +90,9 @@ struct Discover: View {
     }
     
     @AppStorage("selectedVoice") var selectedVoice: String = ""
-    
     var body: some View {
         ScrollView {
+            
             Text("Connect")
                 .font(.largeTitle)
             VStack {
@@ -103,30 +103,41 @@ struct Discover: View {
                 Text("Device Connected: \(isDeviceConnected ? "Yes" : "No")")
                 ZStack {
                     Circle()
-                        .fill(isDeviceConnected ? .purple : Color("bubbles-background"))
+                        .fill(!isDeviceConnected ? .purple : Color("bubbles-background"))
                         .frame(width: 250, height: 250)
                         
                     
                     Button(action: {
                         Task {
                             startSession()
-                            isDeviceConnected.toggle()
+                            
                             do {
+                                
                                 if isDeviceConnected{
                                     selectedVoice == "jennifer" ?
                                     try await vapi.start(assistantId: "b5cc5a76-f7c8-4816-8aa0-63e8bc699f60") : selectedVoice == "mark" ? try await vapi.start(assistantId: "a7538cb5-1857-4993-ba84-8313d921eb12") :
-                                    try await vapi.start(assistantId: "da3a9a15-d636-425e-837e-476b9c311c98")
+                                    selectedVoice == "joseph" ?
+                                    try await vapi.start(assistantId:
+                                    "1b6e3f8c-438d-49cb-b637-9ec528b94355")
+                                    :
+                                    selectedVoice == "paula" ?
+                                    try await vapi.start(assistantId: "da3a9a15-d636-425e-837e-476b9c311c98") :
+                                    selectedVoice == "james" ?
+                                    try await vapi.start(assistantId: "1819f263-7cac-4ea0-bfa1-63488257972f") :
+                                    try await vapi.start(assistantId: "e0be487e-d5d0-4f21-9d7f-93bfa80f1aae")
                                     print("vapi call started")
                                 }else{
                                     vapi.stop()
+                                    
                                 }
+                                isDeviceConnected.toggle()
                             } catch{
                                 print("unable to start vapi call")
                             }
                         }
                         
                     }) {
-                        isDeviceConnected ? Text("Speaker Active") : Text("Speaker Inactive")
+                        isDeviceConnected ? Text("Speaker Inactive") : Text("Speaker Active")
                     }.foregroundColor(.white)
             
                 }
@@ -160,7 +171,7 @@ struct PetItemRow: View {
             Image(petItem.imageName)
                 .resizable()
                 .frame(width: 100, height: 100)
-                .cornerRadius(10)
+                .cornerRadius(10).padding()
             
             VStack(alignment: .leading) {
                 Text(petItem.name)
@@ -172,7 +183,8 @@ struct PetItemRow: View {
                     .foregroundColor(.gray)
                     .multilineTextAlignment(.leading)
             }
-        }
+            Spacer()
+        }.background(Color("bubbles-background")).cornerRadius(10).frame(width: 400, height: 100)
     }
 }
 

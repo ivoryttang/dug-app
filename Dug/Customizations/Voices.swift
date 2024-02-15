@@ -114,18 +114,18 @@ struct Voices: View {
                             }.cornerRadius(10)
                         
 
-                        PlayAudioButton(audioPlayer: voice.name == "paula" ? audioPlayerViewModelPaula :
-                                            voice.name == "mark" ?
-                                        audioPlayerViewModelMark :
-                                            voice.name == "jennifer" ?
-                                        audioPlayerViewModelJennifer :
-                                            voice.name == "natasia" ?
-                                        audioPlayerViewModelNatasia :
-                                            voice.name == "james" ?
-                                        audioPlayerViewModelJames :
-                                            voice.name == "joseph" ?
-                                        audioPlayerViewModelJoseph :
-                                            audioPlayerViewModelMiriam
+                    PlayAudioButton(audioPlayer: voice.name == "paula" ? audioPlayerViewModelPaula :
+                            voice.name == "mark" ?
+                        audioPlayerViewModelMark :
+                            voice.name == "jennifer" ?
+                        audioPlayerViewModelJennifer :
+                            voice.name == "natasia" ?
+                        audioPlayerViewModelNatasia :
+                            voice.name == "james" ?
+                        audioPlayerViewModelJames :
+                            voice.name == "joseph" ?
+                        audioPlayerViewModelJoseph :
+                            audioPlayerViewModelMiriam
                         )
                         
                     }

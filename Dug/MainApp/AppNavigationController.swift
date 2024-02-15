@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import Supabase
 
 struct AppNavigationController: View {
+    @AppStorage("loggedIn") var loggedIn: Bool = true
     var body: some View {
-        
-        TabView {
+        if loggedIn {
+            NavigationView{
+                TabView {
                     Discover()
                         .tabItem {
                             Image(systemName: "house")
@@ -31,6 +34,10 @@ struct AppNavigationController: View {
                             Image(systemName: "person.crop.square")
                             Text("Profile")
                         }
+                }
+            }.navigationBarBackButtonHidden(true)
+        }else{
+            Login()
         }
     }
 }
